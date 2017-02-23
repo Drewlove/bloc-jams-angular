@@ -79,3 +79,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-hapi');
 
 };
+
+module.exports = function(grunt){
+    
+};
