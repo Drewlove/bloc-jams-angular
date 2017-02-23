@@ -1,0 +1,2698 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'grunt-cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData grunt-cli
+8 silly fetchNamedPackageData grunt-cli
+9 silly mapToRegistry name grunt-cli
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'grunt-cli',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'grunt-cli',
+12 silly mapToRegistry   name: 'grunt-cli',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+14 verbose request uri https://registry.npmjs.org/grunt-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 1:51:48 PM
+17 verbose request id 34324d5faaed1624
+18 verbose etag W/"58ab685d-7edb"
+19 verbose lastModified Mon, 20 Feb 2017 22:06:21 GMT
+20 http request GET https://registry.npmjs.org/grunt-cli
+21 http 304 https://registry.npmjs.org/grunt-cli
+22 verbose headers { date: 'Wed, 22 Feb 2017 18:52:27 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"58ab685d-7edb"',
+22 verbose headers   age: '0',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1487789547.905507,VS0,VE26',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Wed, 22 Feb 2017 18:52:27 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"58ab685d-7edb"',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-bos8235-BOS',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1487789547.905507,VS0,VE26',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/grunt-cli from cache
+25 verbose get saving grunt-cli to /Users/Drew/.npm/registry.npmjs.org/grunt-cli/.cache.json
+26 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule grunt-cli@1.2.0 checking installable status
+40 silly cache add args [ 'grunt-cli', null ]
+41 verbose cache add spec grunt-cli
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'grunt-cli',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'grunt-cli',
+42 silly cache add   name: 'grunt-cli',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed grunt-cli@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for grunt-cli
+45 info addNameTag [ 'grunt-cli', 'latest' ]
+46 silly mapToRegistry name grunt-cli
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'grunt-cli',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'grunt-cli',
+49 silly mapToRegistry   name: 'grunt-cli',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+51 verbose addNameTag registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+52 verbose get https://registry.npmjs.org/grunt-cli not expired, no request
+53 silly addNameTag next cb for grunt-cli with tag latest
+54 silly addNamed grunt-cli@1.2.0
+55 verbose addNamed "1.2.0" is a plain semver version for grunt-cli
+56 silly mapToRegistry name grunt-cli
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'grunt-cli',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'grunt-cli',
+59 silly mapToRegistry   name: 'grunt-cli',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+61 verbose addRemoteTarball https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz',
+62 verbose addRemoteTarball   '562b119ebb069ddb464ace2845501be97b35b6a8' ]
+63 info retry fetch attempt 1 at 1:51:48 PM
+64 info attempt registry request try #1 at 1:51:48 PM
+65 http fetch GET https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz
+66 http fetch 200 https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz
+67 silly fetchAndShaCheck shasum 562b119ebb069ddb464ace2845501be97b35b6a8
+68 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/grunt-cli/-/grunt-cli-1.2.0.tgz not in flight; adding
+69 verbose addTmpTarball already have metadata; skipping unpack for grunt-cli@1.2.0
+70 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+71 silly cache afterAdd grunt-cli@1.2.0
+72 verbose afterAdd /Users/Drew/.npm/grunt-cli/1.2.0/package/package.json not in flight; writing
+73 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+74 verbose afterAdd /Users/Drew/.npm/grunt-cli/1.2.0/package/package.json written
+75 silly fetchNamedPackageData findup-sync
+76 silly mapToRegistry name findup-sync
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry data Result {
+79 silly mapToRegistry   raw: 'findup-sync',
+79 silly mapToRegistry   scope: null,
+79 silly mapToRegistry   escapedName: 'findup-sync',
+79 silly mapToRegistry   name: 'findup-sync',
+79 silly mapToRegistry   rawSpec: '',
+79 silly mapToRegistry   spec: 'latest',
+79 silly mapToRegistry   type: 'tag' }
+80 silly mapToRegistry uri https://registry.npmjs.org/findup-sync
+81 silly fetchNamedPackageData grunt-known-options
+82 silly mapToRegistry name grunt-known-options
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'grunt-known-options',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   escapedName: 'grunt-known-options',
+85 silly mapToRegistry   name: 'grunt-known-options',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/grunt-known-options
+87 silly fetchNamedPackageData nopt
+88 silly mapToRegistry name nopt
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry data Result {
+91 silly mapToRegistry   raw: 'nopt',
+91 silly mapToRegistry   scope: null,
+91 silly mapToRegistry   escapedName: 'nopt',
+91 silly mapToRegistry   name: 'nopt',
+91 silly mapToRegistry   rawSpec: '',
+91 silly mapToRegistry   spec: 'latest',
+91 silly mapToRegistry   type: 'tag' }
+92 silly mapToRegistry uri https://registry.npmjs.org/nopt
+93 silly fetchNamedPackageData resolve
+94 silly mapToRegistry name resolve
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry data Result {
+97 silly mapToRegistry   raw: 'resolve',
+97 silly mapToRegistry   scope: null,
+97 silly mapToRegistry   escapedName: 'resolve',
+97 silly mapToRegistry   name: 'resolve',
+97 silly mapToRegistry   rawSpec: '',
+97 silly mapToRegistry   spec: 'latest',
+97 silly mapToRegistry   type: 'tag' }
+98 silly mapToRegistry uri https://registry.npmjs.org/resolve
+99 verbose request uri https://registry.npmjs.org/grunt-known-options
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 1:51:48 PM
+102 http request GET https://registry.npmjs.org/grunt-known-options
+103 verbose request uri https://registry.npmjs.org/findup-sync
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 1:51:48 PM
+106 verbose etag W/"58552985-4ae2"
+107 verbose lastModified Sat, 17 Dec 2016 12:03:17 GMT
+108 http request GET https://registry.npmjs.org/findup-sync
+109 verbose request uri https://registry.npmjs.org/resolve
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 1:51:48 PM
+112 verbose etag W/"58552958-b3a1"
+113 verbose lastModified Sat, 17 Dec 2016 12:02:32 GMT
+114 http request GET https://registry.npmjs.org/resolve
+115 verbose request uri https://registry.npmjs.org/nopt
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 1:51:48 PM
+118 verbose etag W/"58518ed2-84a2"
+119 verbose lastModified Wed, 14 Dec 2016 18:26:26 GMT
+120 http request GET https://registry.npmjs.org/nopt
+121 http 200 https://registry.npmjs.org/grunt-known-options
+122 verbose headers { server: 'nginx/1.10.1',
+122 verbose headers   'content-type': 'application/json',
+122 verbose headers   'last-modified': 'Tue, 29 Mar 2016 02:28:08 GMT',
+122 verbose headers   etag: 'W/"56f9e838-dcc"',
+122 verbose headers   'content-encoding': 'gzip',
+122 verbose headers   'cache-control': 'max-age=300',
+122 verbose headers   'content-length': '1010',
+122 verbose headers   'accept-ranges': 'bytes',
+122 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+122 verbose headers   via: '1.1 varnish',
+122 verbose headers   age: '217',
+122 verbose headers   connection: 'keep-alive',
+122 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+122 verbose headers   'x-cache': 'HIT',
+122 verbose headers   'x-cache-hits': '1',
+122 verbose headers   'x-timer': 'S1487789548.239377,VS0,VE0',
+122 verbose headers   vary: 'Accept-Encoding' }
+123 silly get cb [ 200,
+123 silly get   { server: 'nginx/1.10.1',
+123 silly get     'content-type': 'application/json',
+123 silly get     'last-modified': 'Tue, 29 Mar 2016 02:28:08 GMT',
+123 silly get     etag: 'W/"56f9e838-dcc"',
+123 silly get     'content-encoding': 'gzip',
+123 silly get     'cache-control': 'max-age=300',
+123 silly get     'content-length': '1010',
+123 silly get     'accept-ranges': 'bytes',
+123 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+123 silly get     via: '1.1 varnish',
+123 silly get     age: '217',
+123 silly get     connection: 'keep-alive',
+123 silly get     'x-served-by': 'cache-bos8235-BOS',
+123 silly get     'x-cache': 'HIT',
+123 silly get     'x-cache-hits': '1',
+123 silly get     'x-timer': 'S1487789548.239377,VS0,VE0',
+123 silly get     vary: 'Accept-Encoding' } ]
+124 verbose get saving grunt-known-options to /Users/Drew/.npm/registry.npmjs.org/grunt-known-options/.cache.json
+125 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+126 silly resolveWithNewModule grunt-known-options@1.1.0 checking installable status
+127 silly cache add args [ 'grunt-known-options@~1.1.0', null ]
+128 verbose cache add spec grunt-known-options@~1.1.0
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'grunt-known-options@~1.1.0',
+129 silly cache add   scope: null,
+129 silly cache add   escapedName: 'grunt-known-options',
+129 silly cache add   name: 'grunt-known-options',
+129 silly cache add   rawSpec: '~1.1.0',
+129 silly cache add   spec: '>=1.1.0 <1.2.0',
+129 silly cache add   type: 'range' }
+130 silly addNamed grunt-known-options@>=1.1.0 <1.2.0
+131 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for grunt-known-options
+132 silly addNameRange { name: 'grunt-known-options',
+132 silly addNameRange   range: '>=1.1.0 <1.2.0',
+132 silly addNameRange   hasData: false }
+133 silly mapToRegistry name grunt-known-options
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry https://registry.npmjs.org/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'grunt-known-options',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   escapedName: 'grunt-known-options',
+136 silly mapToRegistry   name: 'grunt-known-options',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri https://registry.npmjs.org/grunt-known-options
+138 verbose addNameRange registry:https://registry.npmjs.org/grunt-known-options not in flight; fetching
+139 verbose get https://registry.npmjs.org/grunt-known-options not expired, no request
+140 silly addNameRange number 2 { name: 'grunt-known-options',
+140 silly addNameRange   range: '>=1.1.0 <1.2.0',
+140 silly addNameRange   hasData: true }
+141 silly addNameRange versions [ 'grunt-known-options', [ '1.0.0', '1.1.0' ] ]
+142 silly addNamed grunt-known-options@1.1.0
+143 verbose addNamed "1.1.0" is a plain semver version for grunt-known-options
+144 silly mapToRegistry name grunt-known-options
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry data Result {
+147 silly mapToRegistry   raw: 'grunt-known-options',
+147 silly mapToRegistry   scope: null,
+147 silly mapToRegistry   escapedName: 'grunt-known-options',
+147 silly mapToRegistry   name: 'grunt-known-options',
+147 silly mapToRegistry   rawSpec: '',
+147 silly mapToRegistry   spec: 'latest',
+147 silly mapToRegistry   type: 'tag' }
+148 silly mapToRegistry uri https://registry.npmjs.org/grunt-known-options
+149 verbose addRemoteTarball https://registry.npmjs.org/grunt-known-options/-/grunt-known-options-1.1.0.tgz not in flight; adding
+150 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-known-options/-/grunt-known-options-1.1.0.tgz',
+150 verbose addRemoteTarball   'a4274eeb32fa765da5a7a3b1712617ce3b144149' ]
+151 info retry fetch attempt 1 at 1:51:49 PM
+152 info attempt registry request try #1 at 1:51:49 PM
+153 http fetch GET https://registry.npmjs.org/grunt-known-options/-/grunt-known-options-1.1.0.tgz
+154 http 304 https://registry.npmjs.org/findup-sync
+155 verbose headers { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+155 verbose headers   via: '1.1 varnish',
+155 verbose headers   'cache-control': 'max-age=300',
+155 verbose headers   etag: 'W/"58552985-4ae2"',
+155 verbose headers   age: '142',
+155 verbose headers   connection: 'keep-alive',
+155 verbose headers   'x-served-by': 'cache-bos8230-BOS',
+155 verbose headers   'x-cache': 'HIT',
+155 verbose headers   'x-cache-hits': '1',
+155 verbose headers   'x-timer': 'S1487789548.300334,VS0,VE0',
+155 verbose headers   vary: 'Accept-Encoding' }
+156 silly get cb [ 304,
+156 silly get   { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+156 silly get     via: '1.1 varnish',
+156 silly get     'cache-control': 'max-age=300',
+156 silly get     etag: 'W/"58552985-4ae2"',
+156 silly get     age: '142',
+156 silly get     connection: 'keep-alive',
+156 silly get     'x-served-by': 'cache-bos8230-BOS',
+156 silly get     'x-cache': 'HIT',
+156 silly get     'x-cache-hits': '1',
+156 silly get     'x-timer': 'S1487789548.300334,VS0,VE0',
+156 silly get     vary: 'Accept-Encoding' } ]
+157 verbose etag https://registry.npmjs.org/findup-sync from cache
+158 verbose get saving findup-sync to /Users/Drew/.npm/registry.npmjs.org/findup-sync/.cache.json
+159 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+160 silly resolveWithNewModule findup-sync@0.3.0 checking installable status
+161 silly cache add args [ 'findup-sync@~0.3.0', null ]
+162 verbose cache add spec findup-sync@~0.3.0
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'findup-sync@~0.3.0',
+163 silly cache add   scope: null,
+163 silly cache add   escapedName: 'findup-sync',
+163 silly cache add   name: 'findup-sync',
+163 silly cache add   rawSpec: '~0.3.0',
+163 silly cache add   spec: '>=0.3.0 <0.4.0',
+163 silly cache add   type: 'range' }
+164 silly addNamed findup-sync@>=0.3.0 <0.4.0
+165 verbose addNamed ">=0.3.0 <0.4.0" is a valid semver range for findup-sync
+166 silly addNameRange { name: 'findup-sync', range: '>=0.3.0 <0.4.0', hasData: false }
+167 silly mapToRegistry name findup-sync
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry data Result {
+170 silly mapToRegistry   raw: 'findup-sync',
+170 silly mapToRegistry   scope: null,
+170 silly mapToRegistry   escapedName: 'findup-sync',
+170 silly mapToRegistry   name: 'findup-sync',
+170 silly mapToRegistry   rawSpec: '',
+170 silly mapToRegistry   spec: 'latest',
+170 silly mapToRegistry   type: 'tag' }
+171 silly mapToRegistry uri https://registry.npmjs.org/findup-sync
+172 verbose addNameRange registry:https://registry.npmjs.org/findup-sync not in flight; fetching
+173 http fetch 200 https://registry.npmjs.org/grunt-known-options/-/grunt-known-options-1.1.0.tgz
+174 http 304 https://registry.npmjs.org/resolve
+175 verbose headers { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+175 verbose headers   via: '1.1 varnish',
+175 verbose headers   'cache-control': 'max-age=300',
+175 verbose headers   etag: 'W/"58552958-b3a1"',
+175 verbose headers   age: '195',
+175 verbose headers   connection: 'keep-alive',
+175 verbose headers   'x-served-by': 'cache-bos8222-BOS',
+175 verbose headers   'x-cache': 'HIT',
+175 verbose headers   'x-cache-hits': '2',
+175 verbose headers   'x-timer': 'S1487789548.316221,VS0,VE0',
+175 verbose headers   vary: 'Accept-Encoding' }
+176 silly get cb [ 304,
+176 silly get   { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+176 silly get     via: '1.1 varnish',
+176 silly get     'cache-control': 'max-age=300',
+176 silly get     etag: 'W/"58552958-b3a1"',
+176 silly get     age: '195',
+176 silly get     connection: 'keep-alive',
+176 silly get     'x-served-by': 'cache-bos8222-BOS',
+176 silly get     'x-cache': 'HIT',
+176 silly get     'x-cache-hits': '2',
+176 silly get     'x-timer': 'S1487789548.316221,VS0,VE0',
+176 silly get     vary: 'Accept-Encoding' } ]
+177 verbose etag https://registry.npmjs.org/resolve from cache
+178 verbose get saving resolve to /Users/Drew/.npm/registry.npmjs.org/resolve/.cache.json
+179 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+180 http 304 https://registry.npmjs.org/nopt
+181 verbose headers { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+181 verbose headers   via: '1.1 varnish',
+181 verbose headers   'cache-control': 'max-age=300',
+181 verbose headers   etag: 'W/"58518ed2-84a2"',
+181 verbose headers   age: '2',
+181 verbose headers   connection: 'keep-alive',
+181 verbose headers   'x-served-by': 'cache-bos8226-BOS',
+181 verbose headers   'x-cache': 'HIT',
+181 verbose headers   'x-cache-hits': '1',
+181 verbose headers   'x-timer': 'S1487789548.315992,VS0,VE0',
+181 verbose headers   vary: 'Accept-Encoding' }
+182 silly get cb [ 304,
+182 silly get   { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+182 silly get     via: '1.1 varnish',
+182 silly get     'cache-control': 'max-age=300',
+182 silly get     etag: 'W/"58518ed2-84a2"',
+182 silly get     age: '2',
+182 silly get     connection: 'keep-alive',
+182 silly get     'x-served-by': 'cache-bos8226-BOS',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '1',
+182 silly get     'x-timer': 'S1487789548.315992,VS0,VE0',
+182 silly get     vary: 'Accept-Encoding' } ]
+183 verbose etag https://registry.npmjs.org/nopt from cache
+184 verbose get saving nopt to /Users/Drew/.npm/registry.npmjs.org/nopt/.cache.json
+185 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+186 verbose get https://registry.npmjs.org/findup-sync not expired, no request
+187 silly addNameRange number 2 { name: 'findup-sync', range: '>=0.3.0 <0.4.0', hasData: true }
+188 silly addNameRange versions [ 'findup-sync',
+188 silly addNameRange   [ '0.1.0',
+188 silly addNameRange     '0.1.1',
+188 silly addNameRange     '0.1.2',
+188 silly addNameRange     '0.1.3',
+188 silly addNameRange     '0.2.0',
+188 silly addNameRange     '0.2.1',
+188 silly addNameRange     '0.3.0',
+188 silly addNameRange     '0.4.0',
+188 silly addNameRange     '0.4.1',
+188 silly addNameRange     '0.4.2',
+188 silly addNameRange     '0.4.3' ] ]
+189 silly addNamed findup-sync@0.3.0
+190 verbose addNamed "0.3.0" is a plain semver version for findup-sync
+191 silly fetchAndShaCheck shasum a4274eeb32fa765da5a7a3b1712617ce3b144149
+192 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/grunt-known-options/-/grunt-known-options-1.1.0.tgz not in flight; adding
+193 verbose addTmpTarball already have metadata; skipping unpack for grunt-known-options@1.1.0
+194 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+195 silly mapToRegistry name findup-sync
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry data Result {
+198 silly mapToRegistry   raw: 'findup-sync',
+198 silly mapToRegistry   scope: null,
+198 silly mapToRegistry   escapedName: 'findup-sync',
+198 silly mapToRegistry   name: 'findup-sync',
+198 silly mapToRegistry   rawSpec: '',
+198 silly mapToRegistry   spec: 'latest',
+198 silly mapToRegistry   type: 'tag' }
+199 silly mapToRegistry uri https://registry.npmjs.org/findup-sync
+200 verbose addRemoteTarball https://registry.npmjs.org/findup-sync/-/findup-sync-0.3.0.tgz not in flight; adding
+201 verbose addRemoteTarball [ 'https://registry.npmjs.org/findup-sync/-/findup-sync-0.3.0.tgz',
+201 verbose addRemoteTarball   '37930aa5d816b777c03445e1966cc6790a4c0b16' ]
+202 info retry fetch attempt 1 at 1:51:49 PM
+203 info attempt registry request try #1 at 1:51:49 PM
+204 http fetch GET https://registry.npmjs.org/findup-sync/-/findup-sync-0.3.0.tgz
+205 silly resolveWithNewModule resolve@1.1.7 checking installable status
+206 silly cache add args [ 'resolve@~1.1.0', null ]
+207 verbose cache add spec resolve@~1.1.0
+208 silly cache add parsed spec Result {
+208 silly cache add   raw: 'resolve@~1.1.0',
+208 silly cache add   scope: null,
+208 silly cache add   escapedName: 'resolve',
+208 silly cache add   name: 'resolve',
+208 silly cache add   rawSpec: '~1.1.0',
+208 silly cache add   spec: '>=1.1.0 <1.2.0',
+208 silly cache add   type: 'range' }
+209 silly addNamed resolve@>=1.1.0 <1.2.0
+210 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for resolve
+211 silly addNameRange { name: 'resolve', range: '>=1.1.0 <1.2.0', hasData: false }
+212 silly mapToRegistry name resolve
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry data Result {
+215 silly mapToRegistry   raw: 'resolve',
+215 silly mapToRegistry   scope: null,
+215 silly mapToRegistry   escapedName: 'resolve',
+215 silly mapToRegistry   name: 'resolve',
+215 silly mapToRegistry   rawSpec: '',
+215 silly mapToRegistry   spec: 'latest',
+215 silly mapToRegistry   type: 'tag' }
+216 silly mapToRegistry uri https://registry.npmjs.org/resolve
+217 verbose addNameRange registry:https://registry.npmjs.org/resolve not in flight; fetching
+218 silly resolveWithNewModule nopt@3.0.6 checking installable status
+219 silly cache add args [ 'nopt@~3.0.6', null ]
+220 verbose cache add spec nopt@~3.0.6
+221 silly cache add parsed spec Result {
+221 silly cache add   raw: 'nopt@~3.0.6',
+221 silly cache add   scope: null,
+221 silly cache add   escapedName: 'nopt',
+221 silly cache add   name: 'nopt',
+221 silly cache add   rawSpec: '~3.0.6',
+221 silly cache add   spec: '>=3.0.6 <3.1.0',
+221 silly cache add   type: 'range' }
+222 silly addNamed nopt@>=3.0.6 <3.1.0
+223 verbose addNamed ">=3.0.6 <3.1.0" is a valid semver range for nopt
+224 silly addNameRange { name: 'nopt', range: '>=3.0.6 <3.1.0', hasData: false }
+225 silly mapToRegistry name nopt
+226 silly mapToRegistry using default registry
+227 silly mapToRegistry registry https://registry.npmjs.org/
+228 silly mapToRegistry data Result {
+228 silly mapToRegistry   raw: 'nopt',
+228 silly mapToRegistry   scope: null,
+228 silly mapToRegistry   escapedName: 'nopt',
+228 silly mapToRegistry   name: 'nopt',
+228 silly mapToRegistry   rawSpec: '',
+228 silly mapToRegistry   spec: 'latest',
+228 silly mapToRegistry   type: 'tag' }
+229 silly mapToRegistry uri https://registry.npmjs.org/nopt
+230 verbose addNameRange registry:https://registry.npmjs.org/nopt not in flight; fetching
+231 http fetch 200 https://registry.npmjs.org/findup-sync/-/findup-sync-0.3.0.tgz
+232 verbose get https://registry.npmjs.org/resolve not expired, no request
+233 silly addNameRange number 2 { name: 'resolve', range: '>=1.1.0 <1.2.0', hasData: true }
+234 silly addNameRange versions [ 'resolve',
+234 silly addNameRange   [ '0.0.0',
+234 silly addNameRange     '0.0.1',
+234 silly addNameRange     '0.0.2',
+234 silly addNameRange     '0.0.3',
+234 silly addNameRange     '0.0.4',
+234 silly addNameRange     '0.1.0',
+234 silly addNameRange     '0.1.2',
+234 silly addNameRange     '0.1.3',
+234 silly addNameRange     '0.2.0',
+234 silly addNameRange     '0.2.1',
+234 silly addNameRange     '0.2.2',
+234 silly addNameRange     '0.2.3',
+234 silly addNameRange     '0.2.4',
+234 silly addNameRange     '0.2.5',
+234 silly addNameRange     '0.2.6',
+234 silly addNameRange     '0.2.7',
+234 silly addNameRange     '0.2.8',
+234 silly addNameRange     '0.3.0',
+234 silly addNameRange     '0.3.1',
+234 silly addNameRange     '0.4.0',
+234 silly addNameRange     '0.4.1',
+234 silly addNameRange     '0.4.2',
+234 silly addNameRange     '0.4.3',
+234 silly addNameRange     '0.5.0',
+234 silly addNameRange     '0.5.1',
+234 silly addNameRange     '0.6.0',
+234 silly addNameRange     '0.6.1',
+234 silly addNameRange     '0.6.2',
+234 silly addNameRange     '0.6.3',
+234 silly addNameRange     '0.7.0',
+234 silly addNameRange     '0.7.1',
+234 silly addNameRange     '0.7.2',
+234 silly addNameRange     '0.7.3',
+234 silly addNameRange     '0.7.4',
+234 silly addNameRange     '1.0.0',
+234 silly addNameRange     '1.1.0',
+234 silly addNameRange     '1.1.2',
+234 silly addNameRange     '1.1.3',
+234 silly addNameRange     '1.1.4',
+234 silly addNameRange     '1.1.5',
+234 silly addNameRange     '1.1.6',
+234 silly addNameRange     '1.1.7',
+234 silly addNameRange     '1.2.0' ] ]
+235 silly addNamed resolve@1.1.7
+236 verbose addNamed "1.1.7" is a plain semver version for resolve
+237 verbose get https://registry.npmjs.org/nopt not expired, no request
+238 silly addNameRange number 2 { name: 'nopt', range: '>=3.0.6 <3.1.0', hasData: true }
+239 silly addNameRange versions [ 'nopt',
+239 silly addNameRange   [ '1.0.0',
+239 silly addNameRange     '1.0.1',
+239 silly addNameRange     '1.0.2',
+239 silly addNameRange     '1.0.3',
+239 silly addNameRange     '1.0.4',
+239 silly addNameRange     '1.0.5',
+239 silly addNameRange     '1.0.6',
+239 silly addNameRange     '1.0.7',
+239 silly addNameRange     '1.0.8',
+239 silly addNameRange     '1.0.9',
+239 silly addNameRange     '1.0.10',
+239 silly addNameRange     '2.0.0',
+239 silly addNameRange     '2.1.0',
+239 silly addNameRange     '2.1.1',
+239 silly addNameRange     '2.1.2',
+239 silly addNameRange     '2.2.0',
+239 silly addNameRange     '2.2.1',
+239 silly addNameRange     '3.0.0',
+239 silly addNameRange     '3.0.1',
+239 silly addNameRange     '3.0.2',
+239 silly addNameRange     '3.0.3',
+239 silly addNameRange     '3.0.4',
+239 silly addNameRange     '3.0.5',
+239 silly addNameRange     '3.0.6',
+239 silly addNameRange     '4.0.0',
+239 silly addNameRange     '4.0.1' ] ]
+240 silly addNamed nopt@3.0.6
+241 verbose addNamed "3.0.6" is a plain semver version for nopt
+242 silly mapToRegistry name resolve
+243 silly mapToRegistry using default registry
+244 silly mapToRegistry registry https://registry.npmjs.org/
+245 silly mapToRegistry data Result {
+245 silly mapToRegistry   raw: 'resolve',
+245 silly mapToRegistry   scope: null,
+245 silly mapToRegistry   escapedName: 'resolve',
+245 silly mapToRegistry   name: 'resolve',
+245 silly mapToRegistry   rawSpec: '',
+245 silly mapToRegistry   spec: 'latest',
+245 silly mapToRegistry   type: 'tag' }
+246 silly mapToRegistry uri https://registry.npmjs.org/resolve
+247 verbose addRemoteTarball https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz not in flight; adding
+248 verbose addRemoteTarball [ 'https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz',
+248 verbose addRemoteTarball   '203114d82ad2c5ed9e8e0411b3932875e889e97b' ]
+249 silly mapToRegistry name nopt
+250 silly mapToRegistry using default registry
+251 silly mapToRegistry registry https://registry.npmjs.org/
+252 silly mapToRegistry data Result {
+252 silly mapToRegistry   raw: 'nopt',
+252 silly mapToRegistry   scope: null,
+252 silly mapToRegistry   escapedName: 'nopt',
+252 silly mapToRegistry   name: 'nopt',
+252 silly mapToRegistry   rawSpec: '',
+252 silly mapToRegistry   spec: 'latest',
+252 silly mapToRegistry   type: 'tag' }
+253 silly mapToRegistry uri https://registry.npmjs.org/nopt
+254 verbose addRemoteTarball https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz not in flight; adding
+255 verbose addRemoteTarball [ 'https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz',
+255 verbose addRemoteTarball   'c6465dbf08abcd4db359317f79ac68a646b28ff9' ]
+256 silly fetchAndShaCheck shasum 37930aa5d816b777c03445e1966cc6790a4c0b16
+257 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/findup-sync/-/findup-sync-0.3.0.tgz not in flight; adding
+258 verbose addTmpTarball already have metadata; skipping unpack for findup-sync@0.3.0
+259 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+260 info retry fetch attempt 1 at 1:51:49 PM
+261 info attempt registry request try #1 at 1:51:49 PM
+262 http fetch GET https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+263 info retry fetch attempt 1 at 1:51:49 PM
+264 info attempt registry request try #1 at 1:51:49 PM
+265 http fetch GET https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz
+266 silly cache afterAdd grunt-known-options@1.1.0
+267 verbose afterAdd /Users/Drew/.npm/grunt-known-options/1.1.0/package/package.json not in flight; writing
+268 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+269 verbose afterAdd /Users/Drew/.npm/grunt-known-options/1.1.0/package/package.json written
+270 http fetch 200 https://registry.npmjs.org/resolve/-/resolve-1.1.7.tgz
+271 http fetch 200 https://registry.npmjs.org/nopt/-/nopt-3.0.6.tgz
+272 silly cache afterAdd findup-sync@0.3.0
+273 verbose afterAdd /Users/Drew/.npm/findup-sync/0.3.0/package/package.json not in flight; writing
+274 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+275 silly fetchAndShaCheck shasum 203114d82ad2c5ed9e8e0411b3932875e889e97b
+276 silly fetchAndShaCheck shasum c6465dbf08abcd4db359317f79ac68a646b28ff9
+277 verbose afterAdd /Users/Drew/.npm/findup-sync/0.3.0/package/package.json written
+278 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/resolve/-/resolve-1.1.7.tgz not in flight; adding
+279 verbose addTmpTarball already have metadata; skipping unpack for resolve@1.1.7
+280 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+281 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/nopt/-/nopt-3.0.6.tgz not in flight; adding
+282 verbose addTmpTarball already have metadata; skipping unpack for nopt@3.0.6
+283 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+284 silly cache afterAdd resolve@1.1.7
+285 verbose afterAdd /Users/Drew/.npm/resolve/1.1.7/package/package.json not in flight; writing
+286 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+287 silly cache afterAdd nopt@3.0.6
+288 verbose afterAdd /Users/Drew/.npm/nopt/3.0.6/package/package.json not in flight; writing
+289 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+290 verbose afterAdd /Users/Drew/.npm/resolve/1.1.7/package/package.json written
+291 verbose afterAdd /Users/Drew/.npm/nopt/3.0.6/package/package.json written
+292 silly fetchNamedPackageData glob
+293 silly mapToRegistry name glob
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry data Result {
+296 silly mapToRegistry   raw: 'glob',
+296 silly mapToRegistry   scope: null,
+296 silly mapToRegistry   escapedName: 'glob',
+296 silly mapToRegistry   name: 'glob',
+296 silly mapToRegistry   rawSpec: '',
+296 silly mapToRegistry   spec: 'latest',
+296 silly mapToRegistry   type: 'tag' }
+297 silly mapToRegistry uri https://registry.npmjs.org/glob
+298 verbose request uri https://registry.npmjs.org/glob
+299 verbose request no auth needed
+300 info attempt registry request try #1 at 1:51:49 PM
+301 verbose etag W/"58a5de85-1f647"
+302 verbose lastModified Thu, 16 Feb 2017 17:16:53 GMT
+303 http request GET https://registry.npmjs.org/glob
+304 http 304 https://registry.npmjs.org/glob
+305 verbose headers { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+305 verbose headers   via: '1.1 varnish',
+305 verbose headers   'cache-control': 'max-age=300',
+305 verbose headers   etag: 'W/"58a5de85-1f647"',
+305 verbose headers   age: '85',
+305 verbose headers   connection: 'keep-alive',
+305 verbose headers   'x-served-by': 'cache-bos8226-BOS',
+305 verbose headers   'x-cache': 'HIT',
+305 verbose headers   'x-cache-hits': '2',
+305 verbose headers   'x-timer': 'S1487789548.517423,VS0,VE0',
+305 verbose headers   vary: 'Accept-Encoding' }
+306 silly get cb [ 304,
+306 silly get   { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+306 silly get     via: '1.1 varnish',
+306 silly get     'cache-control': 'max-age=300',
+306 silly get     etag: 'W/"58a5de85-1f647"',
+306 silly get     age: '85',
+306 silly get     connection: 'keep-alive',
+306 silly get     'x-served-by': 'cache-bos8226-BOS',
+306 silly get     'x-cache': 'HIT',
+306 silly get     'x-cache-hits': '2',
+306 silly get     'x-timer': 'S1487789548.517423,VS0,VE0',
+306 silly get     vary: 'Accept-Encoding' } ]
+307 verbose etag https://registry.npmjs.org/glob from cache
+308 verbose get saving glob to /Users/Drew/.npm/registry.npmjs.org/glob/.cache.json
+309 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+310 silly resolveWithNewModule glob@5.0.15 checking installable status
+311 silly cache add args [ 'glob@~5.0.0', null ]
+312 verbose cache add spec glob@~5.0.0
+313 silly cache add parsed spec Result {
+313 silly cache add   raw: 'glob@~5.0.0',
+313 silly cache add   scope: null,
+313 silly cache add   escapedName: 'glob',
+313 silly cache add   name: 'glob',
+313 silly cache add   rawSpec: '~5.0.0',
+313 silly cache add   spec: '>=5.0.0 <5.1.0',
+313 silly cache add   type: 'range' }
+314 silly addNamed glob@>=5.0.0 <5.1.0
+315 verbose addNamed ">=5.0.0 <5.1.0" is a valid semver range for glob
+316 silly addNameRange { name: 'glob', range: '>=5.0.0 <5.1.0', hasData: false }
+317 silly mapToRegistry name glob
+318 silly mapToRegistry using default registry
+319 silly mapToRegistry registry https://registry.npmjs.org/
+320 silly mapToRegistry data Result {
+320 silly mapToRegistry   raw: 'glob',
+320 silly mapToRegistry   scope: null,
+320 silly mapToRegistry   escapedName: 'glob',
+320 silly mapToRegistry   name: 'glob',
+320 silly mapToRegistry   rawSpec: '',
+320 silly mapToRegistry   spec: 'latest',
+320 silly mapToRegistry   type: 'tag' }
+321 silly mapToRegistry uri https://registry.npmjs.org/glob
+322 verbose addNameRange registry:https://registry.npmjs.org/glob not in flight; fetching
+323 verbose get https://registry.npmjs.org/glob not expired, no request
+324 silly addNameRange number 2 { name: 'glob', range: '>=5.0.0 <5.1.0', hasData: true }
+325 silly addNameRange versions [ 'glob',
+325 silly addNameRange   [ '1.1.0',
+325 silly addNameRange     '2.0.9',
+325 silly addNameRange     '2.0.8',
+325 silly addNameRange     '2.0.7',
+325 silly addNameRange     '2.1.0',
+325 silly addNameRange     '3.0.0',
+325 silly addNameRange     '3.0.1',
+325 silly addNameRange     '3.1.0',
+325 silly addNameRange     '3.1.1',
+325 silly addNameRange     '3.1.2',
+325 silly addNameRange     '3.1.3',
+325 silly addNameRange     '3.1.4',
+325 silly addNameRange     '3.1.5',
+325 silly addNameRange     '3.1.6',
+325 silly addNameRange     '3.1.7',
+325 silly addNameRange     '3.1.9',
+325 silly addNameRange     '3.1.10',
+325 silly addNameRange     '3.1.11',
+325 silly addNameRange     '3.1.12',
+325 silly addNameRange     '3.1.13',
+325 silly addNameRange     '3.1.14',
+325 silly addNameRange     '3.1.15',
+325 silly addNameRange     '3.1.16',
+325 silly addNameRange     '3.1.17',
+325 silly addNameRange     '3.1.18',
+325 silly addNameRange     '3.1.19',
+325 silly addNameRange     '3.1.20',
+325 silly addNameRange     '3.1.21',
+325 silly addNameRange     '3.2.0',
+325 silly addNameRange     '3.2.1',
+325 silly addNameRange     '3.2.3',
+325 silly addNameRange     '3.2.4',
+325 silly addNameRange     '3.2.5',
+325 silly addNameRange     '3.2.6',
+325 silly addNameRange     '3.2.7',
+325 silly addNameRange     '3.2.8',
+325 silly addNameRange     '3.2.9',
+325 silly addNameRange     '3.2.10',
+325 silly addNameRange     '3.2.11',
+325 silly addNameRange     '4.0.0',
+325 silly addNameRange     '4.0.1',
+325 silly addNameRange     '4.0.2',
+325 silly addNameRange     '4.0.3',
+325 silly addNameRange     '4.0.4',
+325 silly addNameRange     '4.0.5',
+325 silly addNameRange     '4.0.6',
+325 silly addNameRange     '4.1.2-beta',
+325 silly addNameRange     '4.1.2',
+325 silly addNameRange     '4.1.3',
+325 silly addNameRange     '4.1.4',
+325 silly addNameRange     '4.1.5',
+325 silly addNameRange     '4.1.6',
+325 silly addNameRange     '4.2.0',
+325 silly addNameRange     '4.2.1',
+325 silly addNameRange     '4.2.2',
+325 silly addNameRange     '4.3.0',
+325 silly addNameRange     '4.3.1',
+325 silly addNameRange     '4.3.2',
+325 silly addNameRange     '4.3.3',
+325 silly addNameRange     '4.3.4',
+325 silly addNameRange     '4.3.5',
+325 silly addNameRange     '4.4.0',
+325 silly addNameRange     '4.4.2',
+325 silly addNameRange     '4.5.0',
+325 silly addNameRange     '5.0.0',
+325 silly addNameRange     '4.5.1',
+325 silly addNameRange     '5.0.1',
+325 silly addNameRange     '4.5.2',
+325 silly addNameRange     '5.0.2',
+325 silly addNameRange     '4.5.3',
+325 silly addNameRange     '5.0.3',
+325 silly addNameRange     '5.0.4',
+325 silly addNameRange     '5.0.5',
+325 silly addNameRange     '5.0.6',
+325 silly addNameRange     '5.0.7',
+325 silly addNameRange     '5.0.9',
+325 silly addNameRange     '5.0.10',
+325 silly addNameRange     '5.0.11',
+325 silly addNameRange     '5.0.12',
+325 silly addNameRange     '5.0.13',
+325 silly addNameRange     '5.0.14',
+325 silly addNameRange     '5.0.15',
+325 silly addNameRange     '6.0.1',
+325 silly addNameRange     '6.0.2',
+325 silly addNameRange     '6.0.3',
+325 silly addNameRange     '6.0.4',
+325 silly addNameRange     '7.0.0',
+325 silly addNameRange     '7.0.1',
+325 silly addNameRange     '7.0.3',
+325 silly addNameRange     '7.0.4',
+325 silly addNameRange     '7.0.5',
+325 silly addNameRange     '7.0.6',
+325 silly addNameRange     '7.1.0',
+325 silly addNameRange     '7.1.1' ] ]
+326 silly addNamed glob@5.0.15
+327 verbose addNamed "5.0.15" is a plain semver version for glob
+328 silly mapToRegistry name glob
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry https://registry.npmjs.org/
+331 silly mapToRegistry data Result {
+331 silly mapToRegistry   raw: 'glob',
+331 silly mapToRegistry   scope: null,
+331 silly mapToRegistry   escapedName: 'glob',
+331 silly mapToRegistry   name: 'glob',
+331 silly mapToRegistry   rawSpec: '',
+331 silly mapToRegistry   spec: 'latest',
+331 silly mapToRegistry   type: 'tag' }
+332 silly mapToRegistry uri https://registry.npmjs.org/glob
+333 verbose addRemoteTarball https://registry.npmjs.org/glob/-/glob-5.0.15.tgz not in flight; adding
+334 verbose addRemoteTarball [ 'https://registry.npmjs.org/glob/-/glob-5.0.15.tgz',
+334 verbose addRemoteTarball   '1bc936b9e02f4a603fcc222ecf7633d30b8b93b1' ]
+335 info retry fetch attempt 1 at 1:51:49 PM
+336 info attempt registry request try #1 at 1:51:49 PM
+337 http fetch GET https://registry.npmjs.org/glob/-/glob-5.0.15.tgz
+338 http fetch 200 https://registry.npmjs.org/glob/-/glob-5.0.15.tgz
+339 silly fetchAndShaCheck shasum 1bc936b9e02f4a603fcc222ecf7633d30b8b93b1
+340 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/glob/-/glob-5.0.15.tgz not in flight; adding
+341 verbose addTmpTarball already have metadata; skipping unpack for glob@5.0.15
+342 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+343 silly cache afterAdd glob@5.0.15
+344 verbose afterAdd /Users/Drew/.npm/glob/5.0.15/package/package.json not in flight; writing
+345 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+346 verbose afterAdd /Users/Drew/.npm/glob/5.0.15/package/package.json written
+347 silly fetchNamedPackageData inflight
+348 silly mapToRegistry name inflight
+349 silly mapToRegistry using default registry
+350 silly mapToRegistry registry https://registry.npmjs.org/
+351 silly mapToRegistry data Result {
+351 silly mapToRegistry   raw: 'inflight',
+351 silly mapToRegistry   scope: null,
+351 silly mapToRegistry   escapedName: 'inflight',
+351 silly mapToRegistry   name: 'inflight',
+351 silly mapToRegistry   rawSpec: '',
+351 silly mapToRegistry   spec: 'latest',
+351 silly mapToRegistry   type: 'tag' }
+352 silly mapToRegistry uri https://registry.npmjs.org/inflight
+353 silly fetchNamedPackageData inherits
+354 silly mapToRegistry name inherits
+355 silly mapToRegistry using default registry
+356 silly mapToRegistry registry https://registry.npmjs.org/
+357 silly mapToRegistry data Result {
+357 silly mapToRegistry   raw: 'inherits',
+357 silly mapToRegistry   scope: null,
+357 silly mapToRegistry   escapedName: 'inherits',
+357 silly mapToRegistry   name: 'inherits',
+357 silly mapToRegistry   rawSpec: '',
+357 silly mapToRegistry   spec: 'latest',
+357 silly mapToRegistry   type: 'tag' }
+358 silly mapToRegistry uri https://registry.npmjs.org/inherits
+359 silly fetchNamedPackageData minimatch
+360 silly mapToRegistry name minimatch
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry https://registry.npmjs.org/
+363 silly mapToRegistry data Result {
+363 silly mapToRegistry   raw: 'minimatch',
+363 silly mapToRegistry   scope: null,
+363 silly mapToRegistry   escapedName: 'minimatch',
+363 silly mapToRegistry   name: 'minimatch',
+363 silly mapToRegistry   rawSpec: '',
+363 silly mapToRegistry   spec: 'latest',
+363 silly mapToRegistry   type: 'tag' }
+364 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+365 silly fetchNamedPackageData once
+366 silly mapToRegistry name once
+367 silly mapToRegistry using default registry
+368 silly mapToRegistry registry https://registry.npmjs.org/
+369 silly mapToRegistry data Result {
+369 silly mapToRegistry   raw: 'once',
+369 silly mapToRegistry   scope: null,
+369 silly mapToRegistry   escapedName: 'once',
+369 silly mapToRegistry   name: 'once',
+369 silly mapToRegistry   rawSpec: '',
+369 silly mapToRegistry   spec: 'latest',
+369 silly mapToRegistry   type: 'tag' }
+370 silly mapToRegistry uri https://registry.npmjs.org/once
+371 silly fetchNamedPackageData path-is-absolute
+372 silly mapToRegistry name path-is-absolute
+373 silly mapToRegistry using default registry
+374 silly mapToRegistry registry https://registry.npmjs.org/
+375 silly mapToRegistry data Result {
+375 silly mapToRegistry   raw: 'path-is-absolute',
+375 silly mapToRegistry   scope: null,
+375 silly mapToRegistry   escapedName: 'path-is-absolute',
+375 silly mapToRegistry   name: 'path-is-absolute',
+375 silly mapToRegistry   rawSpec: '',
+375 silly mapToRegistry   spec: 'latest',
+375 silly mapToRegistry   type: 'tag' }
+376 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+377 verbose request uri https://registry.npmjs.org/inflight
+378 verbose request no auth needed
+379 info attempt registry request try #1 at 1:51:49 PM
+380 http request GET https://registry.npmjs.org/inflight
+381 verbose request uri https://registry.npmjs.org/once
+382 verbose request no auth needed
+383 info attempt registry request try #1 at 1:51:49 PM
+384 http request GET https://registry.npmjs.org/once
+385 verbose request uri https://registry.npmjs.org/path-is-absolute
+386 verbose request no auth needed
+387 info attempt registry request try #1 at 1:51:49 PM
+388 http request GET https://registry.npmjs.org/path-is-absolute
+389 verbose request uri https://registry.npmjs.org/inherits
+390 verbose request no auth needed
+391 info attempt registry request try #1 at 1:51:49 PM
+392 verbose etag W/"5881edff-2213"
+393 verbose lastModified Fri, 20 Jan 2017 11:01:19 GMT
+394 http request GET https://registry.npmjs.org/inherits
+395 verbose request uri https://registry.npmjs.org/minimatch
+396 verbose request no auth needed
+397 info attempt registry request try #1 at 1:51:49 PM
+398 verbose etag W/"58a95fe8-cbfa"
+399 verbose lastModified Sun, 19 Feb 2017 09:05:44 GMT
+400 http request GET https://registry.npmjs.org/minimatch
+401 http 200 https://registry.npmjs.org/inflight
+402 verbose headers { server: 'nginx/1.10.1',
+402 verbose headers   'content-type': 'application/json',
+402 verbose headers   'last-modified': 'Tue, 01 Nov 2016 17:30:25 GMT',
+402 verbose headers   etag: 'W/"5818d131-25a6"',
+402 verbose headers   'content-encoding': 'gzip',
+402 verbose headers   'cache-control': 'max-age=300',
+402 verbose headers   'content-length': '1994',
+402 verbose headers   'accept-ranges': 'bytes',
+402 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+402 verbose headers   via: '1.1 varnish',
+402 verbose headers   age: '121',
+402 verbose headers   connection: 'keep-alive',
+402 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+402 verbose headers   'x-cache': 'HIT',
+402 verbose headers   'x-cache-hits': '5',
+402 verbose headers   'x-timer': 'S1487789548.649412,VS0,VE0',
+402 verbose headers   vary: 'Accept-Encoding' }
+403 silly get cb [ 200,
+403 silly get   { server: 'nginx/1.10.1',
+403 silly get     'content-type': 'application/json',
+403 silly get     'last-modified': 'Tue, 01 Nov 2016 17:30:25 GMT',
+403 silly get     etag: 'W/"5818d131-25a6"',
+403 silly get     'content-encoding': 'gzip',
+403 silly get     'cache-control': 'max-age=300',
+403 silly get     'content-length': '1994',
+403 silly get     'accept-ranges': 'bytes',
+403 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+403 silly get     via: '1.1 varnish',
+403 silly get     age: '121',
+403 silly get     connection: 'keep-alive',
+403 silly get     'x-served-by': 'cache-bos8235-BOS',
+403 silly get     'x-cache': 'HIT',
+403 silly get     'x-cache-hits': '5',
+403 silly get     'x-timer': 'S1487789548.649412,VS0,VE0',
+403 silly get     vary: 'Accept-Encoding' } ]
+404 verbose get saving inflight to /Users/Drew/.npm/registry.npmjs.org/inflight/.cache.json
+405 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+406 http 200 https://registry.npmjs.org/once
+407 verbose headers { server: 'nginx/1.10.1',
+407 verbose headers   'content-type': 'application/json',
+407 verbose headers   'last-modified': 'Fri, 20 Jan 2017 02:25:41 GMT',
+407 verbose headers   etag: 'W/"58817525-25c4"',
+407 verbose headers   'content-encoding': 'gzip',
+407 verbose headers   'cache-control': 'max-age=300',
+407 verbose headers   'content-length': '2419',
+407 verbose headers   'accept-ranges': 'bytes',
+407 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+407 verbose headers   via: '1.1 varnish',
+407 verbose headers   age: '1',
+407 verbose headers   connection: 'keep-alive',
+407 verbose headers   'x-served-by': 'cache-bos8222-BOS',
+407 verbose headers   'x-cache': 'HIT',
+407 verbose headers   'x-cache-hits': '1',
+407 verbose headers   'x-timer': 'S1487789548.649651,VS0,VE0',
+407 verbose headers   vary: 'Accept-Encoding' }
+408 silly get cb [ 200,
+408 silly get   { server: 'nginx/1.10.1',
+408 silly get     'content-type': 'application/json',
+408 silly get     'last-modified': 'Fri, 20 Jan 2017 02:25:41 GMT',
+408 silly get     etag: 'W/"58817525-25c4"',
+408 silly get     'content-encoding': 'gzip',
+408 silly get     'cache-control': 'max-age=300',
+408 silly get     'content-length': '2419',
+408 silly get     'accept-ranges': 'bytes',
+408 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+408 silly get     via: '1.1 varnish',
+408 silly get     age: '1',
+408 silly get     connection: 'keep-alive',
+408 silly get     'x-served-by': 'cache-bos8222-BOS',
+408 silly get     'x-cache': 'HIT',
+408 silly get     'x-cache-hits': '1',
+408 silly get     'x-timer': 'S1487789548.649651,VS0,VE0',
+408 silly get     vary: 'Accept-Encoding' } ]
+409 verbose get saving once to /Users/Drew/.npm/registry.npmjs.org/once/.cache.json
+410 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+411 http 200 https://registry.npmjs.org/path-is-absolute
+412 verbose headers { server: 'nginx/1.10.1',
+412 verbose headers   'content-type': 'application/json',
+412 verbose headers   'last-modified': 'Tue, 01 Nov 2016 18:01:04 GMT',
+412 verbose headers   etag: 'W/"5818d860-1312"',
+412 verbose headers   'content-encoding': 'gzip',
+412 verbose headers   'cache-control': 'max-age=300',
+412 verbose headers   'content-length': '1379',
+412 verbose headers   'accept-ranges': 'bytes',
+412 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+412 verbose headers   via: '1.1 varnish',
+412 verbose headers   age: '136',
+412 verbose headers   connection: 'keep-alive',
+412 verbose headers   'x-served-by': 'cache-bos8226-BOS',
+412 verbose headers   'x-cache': 'HIT',
+412 verbose headers   'x-cache-hits': '3',
+412 verbose headers   'x-timer': 'S1487789548.653834,VS0,VE0',
+412 verbose headers   vary: 'Accept-Encoding' }
+413 silly get cb [ 200,
+413 silly get   { server: 'nginx/1.10.1',
+413 silly get     'content-type': 'application/json',
+413 silly get     'last-modified': 'Tue, 01 Nov 2016 18:01:04 GMT',
+413 silly get     etag: 'W/"5818d860-1312"',
+413 silly get     'content-encoding': 'gzip',
+413 silly get     'cache-control': 'max-age=300',
+413 silly get     'content-length': '1379',
+413 silly get     'accept-ranges': 'bytes',
+413 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+413 silly get     via: '1.1 varnish',
+413 silly get     age: '136',
+413 silly get     connection: 'keep-alive',
+413 silly get     'x-served-by': 'cache-bos8226-BOS',
+413 silly get     'x-cache': 'HIT',
+413 silly get     'x-cache-hits': '3',
+413 silly get     'x-timer': 'S1487789548.653834,VS0,VE0',
+413 silly get     vary: 'Accept-Encoding' } ]
+414 verbose get saving path-is-absolute to /Users/Drew/.npm/registry.npmjs.org/path-is-absolute/.cache.json
+415 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+416 http 304 https://registry.npmjs.org/inherits
+417 verbose headers { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+417 verbose headers   via: '1.1 varnish',
+417 verbose headers   'cache-control': 'max-age=300',
+417 verbose headers   etag: 'W/"5881edff-2213"',
+417 verbose headers   age: '178',
+417 verbose headers   connection: 'keep-alive',
+417 verbose headers   'x-served-by': 'cache-bos8230-BOS',
+417 verbose headers   'x-cache': 'HIT',
+417 verbose headers   'x-cache-hits': '3',
+417 verbose headers   'x-timer': 'S1487789548.663582,VS0,VE0',
+417 verbose headers   vary: 'Accept-Encoding' }
+418 silly get cb [ 304,
+418 silly get   { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+418 silly get     via: '1.1 varnish',
+418 silly get     'cache-control': 'max-age=300',
+418 silly get     etag: 'W/"5881edff-2213"',
+418 silly get     age: '178',
+418 silly get     connection: 'keep-alive',
+418 silly get     'x-served-by': 'cache-bos8230-BOS',
+418 silly get     'x-cache': 'HIT',
+418 silly get     'x-cache-hits': '3',
+418 silly get     'x-timer': 'S1487789548.663582,VS0,VE0',
+418 silly get     vary: 'Accept-Encoding' } ]
+419 verbose etag https://registry.npmjs.org/inherits from cache
+420 verbose get saving inherits to /Users/Drew/.npm/registry.npmjs.org/inherits/.cache.json
+421 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+422 silly resolveWithNewModule inflight@1.0.6 checking installable status
+423 silly cache add args [ 'inflight@^1.0.4', null ]
+424 verbose cache add spec inflight@^1.0.4
+425 silly cache add parsed spec Result {
+425 silly cache add   raw: 'inflight@^1.0.4',
+425 silly cache add   scope: null,
+425 silly cache add   escapedName: 'inflight',
+425 silly cache add   name: 'inflight',
+425 silly cache add   rawSpec: '^1.0.4',
+425 silly cache add   spec: '>=1.0.4 <2.0.0',
+425 silly cache add   type: 'range' }
+426 silly addNamed inflight@>=1.0.4 <2.0.0
+427 verbose addNamed ">=1.0.4 <2.0.0" is a valid semver range for inflight
+428 silly addNameRange { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: false }
+429 silly mapToRegistry name inflight
+430 silly mapToRegistry using default registry
+431 silly mapToRegistry registry https://registry.npmjs.org/
+432 silly mapToRegistry data Result {
+432 silly mapToRegistry   raw: 'inflight',
+432 silly mapToRegistry   scope: null,
+432 silly mapToRegistry   escapedName: 'inflight',
+432 silly mapToRegistry   name: 'inflight',
+432 silly mapToRegistry   rawSpec: '',
+432 silly mapToRegistry   spec: 'latest',
+432 silly mapToRegistry   type: 'tag' }
+433 silly mapToRegistry uri https://registry.npmjs.org/inflight
+434 verbose addNameRange registry:https://registry.npmjs.org/inflight not in flight; fetching
+435 silly resolveWithNewModule once@1.4.0 checking installable status
+436 silly cache add args [ 'once@^1.3.0', null ]
+437 verbose cache add spec once@^1.3.0
+438 silly cache add parsed spec Result {
+438 silly cache add   raw: 'once@^1.3.0',
+438 silly cache add   scope: null,
+438 silly cache add   escapedName: 'once',
+438 silly cache add   name: 'once',
+438 silly cache add   rawSpec: '^1.3.0',
+438 silly cache add   spec: '>=1.3.0 <2.0.0',
+438 silly cache add   type: 'range' }
+439 silly addNamed once@>=1.3.0 <2.0.0
+440 verbose addNamed ">=1.3.0 <2.0.0" is a valid semver range for once
+441 silly addNameRange { name: 'once', range: '>=1.3.0 <2.0.0', hasData: false }
+442 silly mapToRegistry name once
+443 silly mapToRegistry using default registry
+444 silly mapToRegistry registry https://registry.npmjs.org/
+445 silly mapToRegistry data Result {
+445 silly mapToRegistry   raw: 'once',
+445 silly mapToRegistry   scope: null,
+445 silly mapToRegistry   escapedName: 'once',
+445 silly mapToRegistry   name: 'once',
+445 silly mapToRegistry   rawSpec: '',
+445 silly mapToRegistry   spec: 'latest',
+445 silly mapToRegistry   type: 'tag' }
+446 silly mapToRegistry uri https://registry.npmjs.org/once
+447 verbose addNameRange registry:https://registry.npmjs.org/once not in flight; fetching
+448 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+449 silly cache add args [ 'path-is-absolute@^1.0.0', null ]
+450 verbose cache add spec path-is-absolute@^1.0.0
+451 silly cache add parsed spec Result {
+451 silly cache add   raw: 'path-is-absolute@^1.0.0',
+451 silly cache add   scope: null,
+451 silly cache add   escapedName: 'path-is-absolute',
+451 silly cache add   name: 'path-is-absolute',
+451 silly cache add   rawSpec: '^1.0.0',
+451 silly cache add   spec: '>=1.0.0 <2.0.0',
+451 silly cache add   type: 'range' }
+452 silly addNamed path-is-absolute@>=1.0.0 <2.0.0
+453 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for path-is-absolute
+454 silly addNameRange { name: 'path-is-absolute',
+454 silly addNameRange   range: '>=1.0.0 <2.0.0',
+454 silly addNameRange   hasData: false }
+455 silly mapToRegistry name path-is-absolute
+456 silly mapToRegistry using default registry
+457 silly mapToRegistry registry https://registry.npmjs.org/
+458 silly mapToRegistry data Result {
+458 silly mapToRegistry   raw: 'path-is-absolute',
+458 silly mapToRegistry   scope: null,
+458 silly mapToRegistry   escapedName: 'path-is-absolute',
+458 silly mapToRegistry   name: 'path-is-absolute',
+458 silly mapToRegistry   rawSpec: '',
+458 silly mapToRegistry   spec: 'latest',
+458 silly mapToRegistry   type: 'tag' }
+459 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+460 verbose addNameRange registry:https://registry.npmjs.org/path-is-absolute not in flight; fetching
+461 silly resolveWithNewModule inherits@2.0.3 checking installable status
+462 silly cache add args [ 'inherits@2', null ]
+463 verbose cache add spec inherits@2
+464 silly cache add parsed spec Result {
+464 silly cache add   raw: 'inherits@2',
+464 silly cache add   scope: null,
+464 silly cache add   escapedName: 'inherits',
+464 silly cache add   name: 'inherits',
+464 silly cache add   rawSpec: '2',
+464 silly cache add   spec: '>=2.0.0 <3.0.0',
+464 silly cache add   type: 'range' }
+465 silly addNamed inherits@>=2.0.0 <3.0.0
+466 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for inherits
+467 silly addNameRange { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: false }
+468 silly mapToRegistry name inherits
+469 silly mapToRegistry using default registry
+470 silly mapToRegistry registry https://registry.npmjs.org/
+471 silly mapToRegistry data Result {
+471 silly mapToRegistry   raw: 'inherits',
+471 silly mapToRegistry   scope: null,
+471 silly mapToRegistry   escapedName: 'inherits',
+471 silly mapToRegistry   name: 'inherits',
+471 silly mapToRegistry   rawSpec: '',
+471 silly mapToRegistry   spec: 'latest',
+471 silly mapToRegistry   type: 'tag' }
+472 silly mapToRegistry uri https://registry.npmjs.org/inherits
+473 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
+474 verbose get https://registry.npmjs.org/inflight not expired, no request
+475 silly addNameRange number 2 { name: 'inflight', range: '>=1.0.4 <2.0.0', hasData: true }
+476 silly addNameRange versions [ 'inflight',
+476 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5', '1.0.6' ] ]
+477 silly addNamed inflight@1.0.6
+478 verbose addNamed "1.0.6" is a plain semver version for inflight
+479 verbose get https://registry.npmjs.org/once not expired, no request
+480 silly addNameRange number 2 { name: 'once', range: '>=1.3.0 <2.0.0', hasData: true }
+481 silly addNameRange versions [ 'once',
+481 silly addNameRange   [ '1.1.1', '1.2.0', '1.3.0', '1.3.1', '1.3.2', '1.3.3', '1.4.0' ] ]
+482 silly addNamed once@1.4.0
+483 verbose addNamed "1.4.0" is a plain semver version for once
+484 verbose get https://registry.npmjs.org/path-is-absolute not expired, no request
+485 silly addNameRange number 2 { name: 'path-is-absolute',
+485 silly addNameRange   range: '>=1.0.0 <2.0.0',
+485 silly addNameRange   hasData: true }
+486 silly addNameRange versions [ 'path-is-absolute', [ '1.0.0', '1.0.1' ] ]
+487 silly addNamed path-is-absolute@1.0.1
+488 verbose addNamed "1.0.1" is a plain semver version for path-is-absolute
+489 silly mapToRegistry name inflight
+490 silly mapToRegistry using default registry
+491 silly mapToRegistry registry https://registry.npmjs.org/
+492 silly mapToRegistry data Result {
+492 silly mapToRegistry   raw: 'inflight',
+492 silly mapToRegistry   scope: null,
+492 silly mapToRegistry   escapedName: 'inflight',
+492 silly mapToRegistry   name: 'inflight',
+492 silly mapToRegistry   rawSpec: '',
+492 silly mapToRegistry   spec: 'latest',
+492 silly mapToRegistry   type: 'tag' }
+493 silly mapToRegistry uri https://registry.npmjs.org/inflight
+494 verbose addRemoteTarball https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz not in flight; adding
+495 verbose addRemoteTarball [ 'https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz',
+495 verbose addRemoteTarball   '49bd6331d7d02d0c09bc910a1075ba8165b56df9' ]
+496 silly mapToRegistry name once
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npmjs.org/
+499 silly mapToRegistry data Result {
+499 silly mapToRegistry   raw: 'once',
+499 silly mapToRegistry   scope: null,
+499 silly mapToRegistry   escapedName: 'once',
+499 silly mapToRegistry   name: 'once',
+499 silly mapToRegistry   rawSpec: '',
+499 silly mapToRegistry   spec: 'latest',
+499 silly mapToRegistry   type: 'tag' }
+500 silly mapToRegistry uri https://registry.npmjs.org/once
+501 verbose addRemoteTarball https://registry.npmjs.org/once/-/once-1.4.0.tgz not in flight; adding
+502 verbose addRemoteTarball [ 'https://registry.npmjs.org/once/-/once-1.4.0.tgz',
+502 verbose addRemoteTarball   '583b1aa775961d4b113ac17d9c50baef9dd76bd1' ]
+503 silly mapToRegistry name path-is-absolute
+504 silly mapToRegistry using default registry
+505 silly mapToRegistry registry https://registry.npmjs.org/
+506 silly mapToRegistry data Result {
+506 silly mapToRegistry   raw: 'path-is-absolute',
+506 silly mapToRegistry   scope: null,
+506 silly mapToRegistry   escapedName: 'path-is-absolute',
+506 silly mapToRegistry   name: 'path-is-absolute',
+506 silly mapToRegistry   rawSpec: '',
+506 silly mapToRegistry   spec: 'latest',
+506 silly mapToRegistry   type: 'tag' }
+507 silly mapToRegistry uri https://registry.npmjs.org/path-is-absolute
+508 verbose addRemoteTarball https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz not in flight; adding
+509 verbose addRemoteTarball [ 'https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz',
+509 verbose addRemoteTarball   '174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f' ]
+510 verbose get https://registry.npmjs.org/inherits not expired, no request
+511 silly addNameRange number 2 { name: 'inherits', range: '>=2.0.0 <3.0.0', hasData: true }
+512 silly addNameRange versions [ 'inherits',
+512 silly addNameRange   [ '1.0.0', '2.0.0', '2.0.1', '1.0.1', '1.0.2', '2.0.3' ] ]
+513 silly addNamed inherits@2.0.3
+514 verbose addNamed "2.0.3" is a plain semver version for inherits
+515 info retry fetch attempt 1 at 1:51:49 PM
+516 info attempt registry request try #1 at 1:51:49 PM
+517 http fetch GET https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz
+518 info retry fetch attempt 1 at 1:51:49 PM
+519 info attempt registry request try #1 at 1:51:49 PM
+520 http fetch GET https://registry.npmjs.org/once/-/once-1.4.0.tgz
+521 info retry fetch attempt 1 at 1:51:49 PM
+522 info attempt registry request try #1 at 1:51:49 PM
+523 http fetch GET https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz
+524 http 304 https://registry.npmjs.org/minimatch
+525 verbose headers { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+525 verbose headers   via: '1.1 varnish',
+525 verbose headers   'cache-control': 'max-age=300',
+525 verbose headers   etag: 'W/"58a95fe8-cbfa"',
+525 verbose headers   age: '191',
+525 verbose headers   connection: 'keep-alive',
+525 verbose headers   'x-served-by': 'cache-bos8221-BOS',
+525 verbose headers   'x-cache': 'HIT',
+525 verbose headers   'x-cache-hits': '1',
+525 verbose headers   'x-timer': 'S1487789548.701869,VS0,VE0',
+525 verbose headers   vary: 'Accept-Encoding' }
+526 silly get cb [ 304,
+526 silly get   { date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+526 silly get     via: '1.1 varnish',
+526 silly get     'cache-control': 'max-age=300',
+526 silly get     etag: 'W/"58a95fe8-cbfa"',
+526 silly get     age: '191',
+526 silly get     connection: 'keep-alive',
+526 silly get     'x-served-by': 'cache-bos8221-BOS',
+526 silly get     'x-cache': 'HIT',
+526 silly get     'x-cache-hits': '1',
+526 silly get     'x-timer': 'S1487789548.701869,VS0,VE0',
+526 silly get     vary: 'Accept-Encoding' } ]
+527 verbose etag https://registry.npmjs.org/minimatch from cache
+528 verbose get saving minimatch to /Users/Drew/.npm/registry.npmjs.org/minimatch/.cache.json
+529 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+530 silly cache afterAdd inherits@2.0.3
+531 verbose afterAdd /Users/Drew/.npm/inherits/2.0.3/package/package.json not in flight; writing
+532 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+533 http fetch 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz
+534 http fetch 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz
+535 http fetch 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz
+536 silly fetchAndShaCheck shasum 583b1aa775961d4b113ac17d9c50baef9dd76bd1
+537 silly fetchAndShaCheck shasum 49bd6331d7d02d0c09bc910a1075ba8165b56df9
+538 silly fetchAndShaCheck shasum 174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f
+539 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/inflight/-/inflight-1.0.6.tgz not in flight; adding
+540 verbose addTmpTarball already have metadata; skipping unpack for inflight@1.0.6
+541 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+542 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz not in flight; adding
+543 verbose addTmpTarball already have metadata; skipping unpack for path-is-absolute@1.0.1
+544 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+545 verbose afterAdd /Users/Drew/.npm/inherits/2.0.3/package/package.json written
+546 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/once/-/once-1.4.0.tgz not in flight; adding
+547 verbose addTmpTarball already have metadata; skipping unpack for once@1.4.0
+548 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+549 silly resolveWithNewModule minimatch@3.0.3 checking installable status
+550 silly cache add args [ 'minimatch@2 || 3', null ]
+551 verbose cache add spec minimatch@2 || 3
+552 silly cache add parsed spec Result {
+552 silly cache add   raw: 'minimatch@2 || 3',
+552 silly cache add   scope: null,
+552 silly cache add   escapedName: 'minimatch',
+552 silly cache add   name: 'minimatch',
+552 silly cache add   rawSpec: '2 || 3',
+552 silly cache add   spec: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+552 silly cache add   type: 'range' }
+553 silly addNamed minimatch@>=2.0.0 <3.0.0||>=3.0.0 <4.0.0
+554 verbose addNamed ">=2.0.0 <3.0.0||>=3.0.0 <4.0.0" is a valid semver range for minimatch
+555 silly addNameRange { name: 'minimatch',
+555 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+555 silly addNameRange   hasData: false }
+556 silly mapToRegistry name minimatch
+557 silly mapToRegistry using default registry
+558 silly mapToRegistry registry https://registry.npmjs.org/
+559 silly mapToRegistry data Result {
+559 silly mapToRegistry   raw: 'minimatch',
+559 silly mapToRegistry   scope: null,
+559 silly mapToRegistry   escapedName: 'minimatch',
+559 silly mapToRegistry   name: 'minimatch',
+559 silly mapToRegistry   rawSpec: '',
+559 silly mapToRegistry   spec: 'latest',
+559 silly mapToRegistry   type: 'tag' }
+560 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+561 verbose addNameRange registry:https://registry.npmjs.org/minimatch not in flight; fetching
+562 verbose get https://registry.npmjs.org/minimatch not expired, no request
+563 silly addNameRange number 2 { name: 'minimatch',
+563 silly addNameRange   range: '>=2.0.0 <3.0.0||>=3.0.0 <4.0.0',
+563 silly addNameRange   hasData: true }
+564 silly addNameRange versions [ 'minimatch',
+564 silly addNameRange   [ '0.0.1',
+564 silly addNameRange     '0.0.2',
+564 silly addNameRange     '0.0.4',
+564 silly addNameRange     '0.0.5',
+564 silly addNameRange     '0.1.1',
+564 silly addNameRange     '0.1.2',
+564 silly addNameRange     '0.1.3',
+564 silly addNameRange     '0.1.4',
+564 silly addNameRange     '0.1.5',
+564 silly addNameRange     '0.2.0',
+564 silly addNameRange     '0.2.2',
+564 silly addNameRange     '0.2.3',
+564 silly addNameRange     '0.2.4',
+564 silly addNameRange     '0.2.5',
+564 silly addNameRange     '0.2.6',
+564 silly addNameRange     '0.2.7',
+564 silly addNameRange     '0.2.8',
+564 silly addNameRange     '0.2.9',
+564 silly addNameRange     '0.2.10',
+564 silly addNameRange     '0.2.11',
+564 silly addNameRange     '0.2.12',
+564 silly addNameRange     '0.2.13',
+564 silly addNameRange     '0.2.14',
+564 silly addNameRange     '0.3.0',
+564 silly addNameRange     '0.4.0',
+564 silly addNameRange     '1.0.0',
+564 silly addNameRange     '2.0.0',
+564 silly addNameRange     '2.0.1',
+564 silly addNameRange     '2.0.2',
+564 silly addNameRange     '2.0.3',
+564 silly addNameRange     '2.0.4',
+564 silly addNameRange     '2.0.5',
+564 silly addNameRange     '2.0.6',
+564 silly addNameRange     '2.0.7',
+564 silly addNameRange     '2.0.8',
+564 silly addNameRange     '2.0.9',
+564 silly addNameRange     '2.0.10',
+564 silly addNameRange     '3.0.0',
+564 silly addNameRange     '3.0.2',
+564 silly addNameRange     '3.0.3' ] ]
+565 silly addNamed minimatch@3.0.3
+566 verbose addNamed "3.0.3" is a plain semver version for minimatch
+567 silly mapToRegistry name minimatch
+568 silly mapToRegistry using default registry
+569 silly mapToRegistry registry https://registry.npmjs.org/
+570 silly mapToRegistry data Result {
+570 silly mapToRegistry   raw: 'minimatch',
+570 silly mapToRegistry   scope: null,
+570 silly mapToRegistry   escapedName: 'minimatch',
+570 silly mapToRegistry   name: 'minimatch',
+570 silly mapToRegistry   rawSpec: '',
+570 silly mapToRegistry   spec: 'latest',
+570 silly mapToRegistry   type: 'tag' }
+571 silly mapToRegistry uri https://registry.npmjs.org/minimatch
+572 verbose addRemoteTarball https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz not in flight; adding
+573 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz',
+573 verbose addRemoteTarball   '2a4e4090b96b2db06a9d7df01055a62a77c9b774' ]
+574 info retry fetch attempt 1 at 1:51:49 PM
+575 info attempt registry request try #1 at 1:51:49 PM
+576 http fetch GET https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz
+577 silly cache afterAdd path-is-absolute@1.0.1
+578 verbose afterAdd /Users/Drew/.npm/path-is-absolute/1.0.1/package/package.json not in flight; writing
+579 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+580 silly cache afterAdd inflight@1.0.6
+581 verbose afterAdd /Users/Drew/.npm/inflight/1.0.6/package/package.json not in flight; writing
+582 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+583 silly cache afterAdd once@1.4.0
+584 verbose afterAdd /Users/Drew/.npm/once/1.4.0/package/package.json not in flight; writing
+585 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+586 verbose afterAdd /Users/Drew/.npm/path-is-absolute/1.0.1/package/package.json written
+587 verbose afterAdd /Users/Drew/.npm/inflight/1.0.6/package/package.json written
+588 verbose afterAdd /Users/Drew/.npm/once/1.4.0/package/package.json written
+589 http fetch 200 https://registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz
+590 silly fetchAndShaCheck shasum 2a4e4090b96b2db06a9d7df01055a62a77c9b774
+591 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/minimatch/-/minimatch-3.0.3.tgz not in flight; adding
+592 verbose addTmpTarball already have metadata; skipping unpack for minimatch@3.0.3
+593 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+594 silly cache afterAdd minimatch@3.0.3
+595 verbose afterAdd /Users/Drew/.npm/minimatch/3.0.3/package/package.json not in flight; writing
+596 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+597 verbose afterAdd /Users/Drew/.npm/minimatch/3.0.3/package/package.json written
+598 silly fetchNamedPackageData wrappy
+599 silly mapToRegistry name wrappy
+600 silly mapToRegistry using default registry
+601 silly mapToRegistry registry https://registry.npmjs.org/
+602 silly mapToRegistry data Result {
+602 silly mapToRegistry   raw: 'wrappy',
+602 silly mapToRegistry   scope: null,
+602 silly mapToRegistry   escapedName: 'wrappy',
+602 silly mapToRegistry   name: 'wrappy',
+602 silly mapToRegistry   rawSpec: '',
+602 silly mapToRegistry   spec: 'latest',
+602 silly mapToRegistry   type: 'tag' }
+603 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+604 verbose request uri https://registry.npmjs.org/wrappy
+605 verbose request no auth needed
+606 info attempt registry request try #1 at 1:51:49 PM
+607 http request GET https://registry.npmjs.org/wrappy
+608 http 200 https://registry.npmjs.org/wrappy
+609 verbose headers { server: 'nginx/1.10.1',
+609 verbose headers   'content-type': 'application/json',
+609 verbose headers   'last-modified': 'Tue, 01 Nov 2016 18:48:39 GMT',
+609 verbose headers   etag: 'W/"5818e387-11a5"',
+609 verbose headers   'content-encoding': 'gzip',
+609 verbose headers   'cache-control': 'max-age=300',
+609 verbose headers   'content-length': '1375',
+609 verbose headers   'accept-ranges': 'bytes',
+609 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+609 verbose headers   via: '1.1 varnish',
+609 verbose headers   age: '84',
+609 verbose headers   connection: 'keep-alive',
+609 verbose headers   'x-served-by': 'cache-bos8221-BOS',
+609 verbose headers   'x-cache': 'HIT',
+609 verbose headers   'x-cache-hits': '737',
+609 verbose headers   'x-timer': 'S1487789548.839580,VS0,VE0',
+609 verbose headers   vary: 'Accept-Encoding' }
+610 silly get cb [ 200,
+610 silly get   { server: 'nginx/1.10.1',
+610 silly get     'content-type': 'application/json',
+610 silly get     'last-modified': 'Tue, 01 Nov 2016 18:48:39 GMT',
+610 silly get     etag: 'W/"5818e387-11a5"',
+610 silly get     'content-encoding': 'gzip',
+610 silly get     'cache-control': 'max-age=300',
+610 silly get     'content-length': '1375',
+610 silly get     'accept-ranges': 'bytes',
+610 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+610 silly get     via: '1.1 varnish',
+610 silly get     age: '84',
+610 silly get     connection: 'keep-alive',
+610 silly get     'x-served-by': 'cache-bos8221-BOS',
+610 silly get     'x-cache': 'HIT',
+610 silly get     'x-cache-hits': '737',
+610 silly get     'x-timer': 'S1487789548.839580,VS0,VE0',
+610 silly get     vary: 'Accept-Encoding' } ]
+611 verbose get saving wrappy to /Users/Drew/.npm/registry.npmjs.org/wrappy/.cache.json
+612 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+613 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+614 silly cache add args [ 'wrappy@1', null ]
+615 verbose cache add spec wrappy@1
+616 silly cache add parsed spec Result {
+616 silly cache add   raw: 'wrappy@1',
+616 silly cache add   scope: null,
+616 silly cache add   escapedName: 'wrappy',
+616 silly cache add   name: 'wrappy',
+616 silly cache add   rawSpec: '1',
+616 silly cache add   spec: '>=1.0.0 <2.0.0',
+616 silly cache add   type: 'range' }
+617 silly addNamed wrappy@>=1.0.0 <2.0.0
+618 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for wrappy
+619 silly addNameRange { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: false }
+620 silly mapToRegistry name wrappy
+621 silly mapToRegistry using default registry
+622 silly mapToRegistry registry https://registry.npmjs.org/
+623 silly mapToRegistry data Result {
+623 silly mapToRegistry   raw: 'wrappy',
+623 silly mapToRegistry   scope: null,
+623 silly mapToRegistry   escapedName: 'wrappy',
+623 silly mapToRegistry   name: 'wrappy',
+623 silly mapToRegistry   rawSpec: '',
+623 silly mapToRegistry   spec: 'latest',
+623 silly mapToRegistry   type: 'tag' }
+624 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+625 verbose addNameRange registry:https://registry.npmjs.org/wrappy not in flight; fetching
+626 verbose get https://registry.npmjs.org/wrappy not expired, no request
+627 silly addNameRange number 2 { name: 'wrappy', range: '>=1.0.0 <2.0.0', hasData: true }
+628 silly addNameRange versions [ 'wrappy', [ '1.0.0', '1.0.1', '1.0.2' ] ]
+629 silly addNamed wrappy@1.0.2
+630 verbose addNamed "1.0.2" is a plain semver version for wrappy
+631 silly mapToRegistry name wrappy
+632 silly mapToRegistry using default registry
+633 silly mapToRegistry registry https://registry.npmjs.org/
+634 silly mapToRegistry data Result {
+634 silly mapToRegistry   raw: 'wrappy',
+634 silly mapToRegistry   scope: null,
+634 silly mapToRegistry   escapedName: 'wrappy',
+634 silly mapToRegistry   name: 'wrappy',
+634 silly mapToRegistry   rawSpec: '',
+634 silly mapToRegistry   spec: 'latest',
+634 silly mapToRegistry   type: 'tag' }
+635 silly mapToRegistry uri https://registry.npmjs.org/wrappy
+636 verbose addRemoteTarball https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz not in flight; adding
+637 verbose addRemoteTarball [ 'https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz',
+637 verbose addRemoteTarball   'b5243d8f3ec1aa35f1364605bc0d1036e30ab69f' ]
+638 info retry fetch attempt 1 at 1:51:49 PM
+639 info attempt registry request try #1 at 1:51:49 PM
+640 http fetch GET https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz
+641 http fetch 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz
+642 silly fetchAndShaCheck shasum b5243d8f3ec1aa35f1364605bc0d1036e30ab69f
+643 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz not in flight; adding
+644 verbose addTmpTarball already have metadata; skipping unpack for wrappy@1.0.2
+645 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+646 silly cache afterAdd wrappy@1.0.2
+647 verbose afterAdd /Users/Drew/.npm/wrappy/1.0.2/package/package.json not in flight; writing
+648 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+649 verbose afterAdd /Users/Drew/.npm/wrappy/1.0.2/package/package.json written
+650 silly fetchNamedPackageData brace-expansion
+651 silly mapToRegistry name brace-expansion
+652 silly mapToRegistry using default registry
+653 silly mapToRegistry registry https://registry.npmjs.org/
+654 silly mapToRegistry data Result {
+654 silly mapToRegistry   raw: 'brace-expansion',
+654 silly mapToRegistry   scope: null,
+654 silly mapToRegistry   escapedName: 'brace-expansion',
+654 silly mapToRegistry   name: 'brace-expansion',
+654 silly mapToRegistry   rawSpec: '',
+654 silly mapToRegistry   spec: 'latest',
+654 silly mapToRegistry   type: 'tag' }
+655 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+656 verbose request uri https://registry.npmjs.org/brace-expansion
+657 verbose request no auth needed
+658 info attempt registry request try #1 at 1:51:49 PM
+659 http request GET https://registry.npmjs.org/brace-expansion
+660 http 200 https://registry.npmjs.org/brace-expansion
+661 verbose headers { server: 'nginx/1.10.1',
+661 verbose headers   'content-type': 'application/json',
+661 verbose headers   'last-modified': 'Sun, 05 Feb 2017 09:03:40 GMT',
+661 verbose headers   etag: 'W/"5896ea6c-4bca"',
+661 verbose headers   'content-encoding': 'gzip',
+661 verbose headers   'cache-control': 'max-age=300',
+661 verbose headers   'content-length': '3724',
+661 verbose headers   'accept-ranges': 'bytes',
+661 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+661 verbose headers   via: '1.1 varnish',
+661 verbose headers   age: '135',
+661 verbose headers   connection: 'keep-alive',
+661 verbose headers   'x-served-by': 'cache-bos8235-BOS',
+661 verbose headers   'x-cache': 'HIT',
+661 verbose headers   'x-cache-hits': '3',
+661 verbose headers   'x-timer': 'S1487789548.909731,VS0,VE0',
+661 verbose headers   vary: 'Accept-Encoding' }
+662 silly get cb [ 200,
+662 silly get   { server: 'nginx/1.10.1',
+662 silly get     'content-type': 'application/json',
+662 silly get     'last-modified': 'Sun, 05 Feb 2017 09:03:40 GMT',
+662 silly get     etag: 'W/"5896ea6c-4bca"',
+662 silly get     'content-encoding': 'gzip',
+662 silly get     'cache-control': 'max-age=300',
+662 silly get     'content-length': '3724',
+662 silly get     'accept-ranges': 'bytes',
+662 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+662 silly get     via: '1.1 varnish',
+662 silly get     age: '135',
+662 silly get     connection: 'keep-alive',
+662 silly get     'x-served-by': 'cache-bos8235-BOS',
+662 silly get     'x-cache': 'HIT',
+662 silly get     'x-cache-hits': '3',
+662 silly get     'x-timer': 'S1487789548.909731,VS0,VE0',
+662 silly get     vary: 'Accept-Encoding' } ]
+663 verbose get saving brace-expansion to /Users/Drew/.npm/registry.npmjs.org/brace-expansion/.cache.json
+664 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+665 silly resolveWithNewModule brace-expansion@1.1.6 checking installable status
+666 silly cache add args [ 'brace-expansion@^1.0.0', null ]
+667 verbose cache add spec brace-expansion@^1.0.0
+668 silly cache add parsed spec Result {
+668 silly cache add   raw: 'brace-expansion@^1.0.0',
+668 silly cache add   scope: null,
+668 silly cache add   escapedName: 'brace-expansion',
+668 silly cache add   name: 'brace-expansion',
+668 silly cache add   rawSpec: '^1.0.0',
+668 silly cache add   spec: '>=1.0.0 <2.0.0',
+668 silly cache add   type: 'range' }
+669 silly addNamed brace-expansion@>=1.0.0 <2.0.0
+670 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for brace-expansion
+671 silly addNameRange { name: 'brace-expansion',
+671 silly addNameRange   range: '>=1.0.0 <2.0.0',
+671 silly addNameRange   hasData: false }
+672 silly mapToRegistry name brace-expansion
+673 silly mapToRegistry using default registry
+674 silly mapToRegistry registry https://registry.npmjs.org/
+675 silly mapToRegistry data Result {
+675 silly mapToRegistry   raw: 'brace-expansion',
+675 silly mapToRegistry   scope: null,
+675 silly mapToRegistry   escapedName: 'brace-expansion',
+675 silly mapToRegistry   name: 'brace-expansion',
+675 silly mapToRegistry   rawSpec: '',
+675 silly mapToRegistry   spec: 'latest',
+675 silly mapToRegistry   type: 'tag' }
+676 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+677 verbose addNameRange registry:https://registry.npmjs.org/brace-expansion not in flight; fetching
+678 verbose get https://registry.npmjs.org/brace-expansion not expired, no request
+679 silly addNameRange number 2 { name: 'brace-expansion',
+679 silly addNameRange   range: '>=1.0.0 <2.0.0',
+679 silly addNameRange   hasData: true }
+680 silly addNameRange versions [ 'brace-expansion',
+680 silly addNameRange   [ '0.0.0',
+680 silly addNameRange     '1.0.0',
+680 silly addNameRange     '1.0.1',
+680 silly addNameRange     '1.1.0',
+680 silly addNameRange     '1.1.1',
+680 silly addNameRange     '1.1.2',
+680 silly addNameRange     '1.1.3',
+680 silly addNameRange     '1.1.4',
+680 silly addNameRange     '1.1.5',
+680 silly addNameRange     '1.1.6' ] ]
+681 silly addNamed brace-expansion@1.1.6
+682 verbose addNamed "1.1.6" is a plain semver version for brace-expansion
+683 silly mapToRegistry name brace-expansion
+684 silly mapToRegistry using default registry
+685 silly mapToRegistry registry https://registry.npmjs.org/
+686 silly mapToRegistry data Result {
+686 silly mapToRegistry   raw: 'brace-expansion',
+686 silly mapToRegistry   scope: null,
+686 silly mapToRegistry   escapedName: 'brace-expansion',
+686 silly mapToRegistry   name: 'brace-expansion',
+686 silly mapToRegistry   rawSpec: '',
+686 silly mapToRegistry   spec: 'latest',
+686 silly mapToRegistry   type: 'tag' }
+687 silly mapToRegistry uri https://registry.npmjs.org/brace-expansion
+688 verbose addRemoteTarball https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz not in flight; adding
+689 verbose addRemoteTarball [ 'https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz',
+689 verbose addRemoteTarball   '7197d7eaa9b87e648390ea61fc66c84427420df9' ]
+690 info retry fetch attempt 1 at 1:51:49 PM
+691 info attempt registry request try #1 at 1:51:49 PM
+692 http fetch GET https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz
+693 http fetch 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz
+694 silly fetchAndShaCheck shasum 7197d7eaa9b87e648390ea61fc66c84427420df9
+695 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.6.tgz not in flight; adding
+696 verbose addTmpTarball already have metadata; skipping unpack for brace-expansion@1.1.6
+697 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+698 silly cache afterAdd brace-expansion@1.1.6
+699 verbose afterAdd /Users/Drew/.npm/brace-expansion/1.1.6/package/package.json not in flight; writing
+700 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+701 verbose afterAdd /Users/Drew/.npm/brace-expansion/1.1.6/package/package.json written
+702 silly fetchNamedPackageData balanced-match
+703 silly mapToRegistry name balanced-match
+704 silly mapToRegistry using default registry
+705 silly mapToRegistry registry https://registry.npmjs.org/
+706 silly mapToRegistry data Result {
+706 silly mapToRegistry   raw: 'balanced-match',
+706 silly mapToRegistry   scope: null,
+706 silly mapToRegistry   escapedName: 'balanced-match',
+706 silly mapToRegistry   name: 'balanced-match',
+706 silly mapToRegistry   rawSpec: '',
+706 silly mapToRegistry   spec: 'latest',
+706 silly mapToRegistry   type: 'tag' }
+707 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+708 silly fetchNamedPackageData concat-map
+709 silly mapToRegistry name concat-map
+710 silly mapToRegistry using default registry
+711 silly mapToRegistry registry https://registry.npmjs.org/
+712 silly mapToRegistry data Result {
+712 silly mapToRegistry   raw: 'concat-map',
+712 silly mapToRegistry   scope: null,
+712 silly mapToRegistry   escapedName: 'concat-map',
+712 silly mapToRegistry   name: 'concat-map',
+712 silly mapToRegistry   rawSpec: '',
+712 silly mapToRegistry   spec: 'latest',
+712 silly mapToRegistry   type: 'tag' }
+713 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+714 verbose request uri https://registry.npmjs.org/balanced-match
+715 verbose request no auth needed
+716 info attempt registry request try #1 at 1:51:49 PM
+717 http request GET https://registry.npmjs.org/balanced-match
+718 verbose request uri https://registry.npmjs.org/concat-map
+719 verbose request no auth needed
+720 info attempt registry request try #1 at 1:51:49 PM
+721 http request GET https://registry.npmjs.org/concat-map
+722 http 200 https://registry.npmjs.org/concat-map
+723 verbose headers { server: 'nginx/1.10.1',
+723 verbose headers   'content-type': 'application/json',
+723 verbose headers   'last-modified': 'Thu, 30 Jan 2014 03:06:35 GMT',
+723 verbose headers   etag: 'W/"52e9c1bb-f3a"',
+723 verbose headers   'content-encoding': 'gzip',
+723 verbose headers   'cache-control': 'max-age=300',
+723 verbose headers   'content-length': '1395',
+723 verbose headers   'accept-ranges': 'bytes',
+723 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+723 verbose headers   via: '1.1 varnish',
+723 verbose headers   age: '214',
+723 verbose headers   connection: 'keep-alive',
+723 verbose headers   'x-served-by': 'cache-bos8221-BOS',
+723 verbose headers   'x-cache': 'HIT',
+723 verbose headers   'x-cache-hits': '3',
+723 verbose headers   'x-timer': 'S1487789548.973505,VS0,VE0',
+723 verbose headers   vary: 'Accept-Encoding' }
+724 silly get cb [ 200,
+724 silly get   { server: 'nginx/1.10.1',
+724 silly get     'content-type': 'application/json',
+724 silly get     'last-modified': 'Thu, 30 Jan 2014 03:06:35 GMT',
+724 silly get     etag: 'W/"52e9c1bb-f3a"',
+724 silly get     'content-encoding': 'gzip',
+724 silly get     'cache-control': 'max-age=300',
+724 silly get     'content-length': '1395',
+724 silly get     'accept-ranges': 'bytes',
+724 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+724 silly get     via: '1.1 varnish',
+724 silly get     age: '214',
+724 silly get     connection: 'keep-alive',
+724 silly get     'x-served-by': 'cache-bos8221-BOS',
+724 silly get     'x-cache': 'HIT',
+724 silly get     'x-cache-hits': '3',
+724 silly get     'x-timer': 'S1487789548.973505,VS0,VE0',
+724 silly get     vary: 'Accept-Encoding' } ]
+725 verbose get saving concat-map to /Users/Drew/.npm/registry.npmjs.org/concat-map/.cache.json
+726 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+727 http 200 https://registry.npmjs.org/balanced-match
+728 verbose headers { server: 'nginx/1.10.1',
+728 verbose headers   'content-type': 'application/json',
+728 verbose headers   'last-modified': 'Sat, 07 Jan 2017 23:53:11 GMT',
+728 verbose headers   etag: 'W/"58717f67-4136"',
+728 verbose headers   'content-encoding': 'gzip',
+728 verbose headers   'cache-control': 'max-age=300',
+728 verbose headers   'content-length': '3287',
+728 verbose headers   'accept-ranges': 'bytes',
+728 verbose headers   date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+728 verbose headers   via: '1.1 varnish',
+728 verbose headers   age: '124',
+728 verbose headers   connection: 'keep-alive',
+728 verbose headers   'x-served-by': 'cache-bos8230-BOS',
+728 verbose headers   'x-cache': 'HIT',
+728 verbose headers   'x-cache-hits': '2',
+728 verbose headers   'x-timer': 'S1487789548.973616,VS0,VE0',
+728 verbose headers   vary: 'Accept-Encoding' }
+729 silly get cb [ 200,
+729 silly get   { server: 'nginx/1.10.1',
+729 silly get     'content-type': 'application/json',
+729 silly get     'last-modified': 'Sat, 07 Jan 2017 23:53:11 GMT',
+729 silly get     etag: 'W/"58717f67-4136"',
+729 silly get     'content-encoding': 'gzip',
+729 silly get     'cache-control': 'max-age=300',
+729 silly get     'content-length': '3287',
+729 silly get     'accept-ranges': 'bytes',
+729 silly get     date: 'Wed, 22 Feb 2017 18:52:28 GMT',
+729 silly get     via: '1.1 varnish',
+729 silly get     age: '124',
+729 silly get     connection: 'keep-alive',
+729 silly get     'x-served-by': 'cache-bos8230-BOS',
+729 silly get     'x-cache': 'HIT',
+729 silly get     'x-cache-hits': '2',
+729 silly get     'x-timer': 'S1487789548.973616,VS0,VE0',
+729 silly get     vary: 'Accept-Encoding' } ]
+730 verbose get saving balanced-match to /Users/Drew/.npm/registry.npmjs.org/balanced-match/.cache.json
+731 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+732 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+733 silly cache add args [ 'concat-map@0.0.1', null ]
+734 verbose cache add spec concat-map@0.0.1
+735 silly cache add parsed spec Result {
+735 silly cache add   raw: 'concat-map@0.0.1',
+735 silly cache add   scope: null,
+735 silly cache add   escapedName: 'concat-map',
+735 silly cache add   name: 'concat-map',
+735 silly cache add   rawSpec: '0.0.1',
+735 silly cache add   spec: '0.0.1',
+735 silly cache add   type: 'version' }
+736 silly addNamed concat-map@0.0.1
+737 verbose addNamed "0.0.1" is a plain semver version for concat-map
+738 silly mapToRegistry name concat-map
+739 silly mapToRegistry using default registry
+740 silly mapToRegistry registry https://registry.npmjs.org/
+741 silly mapToRegistry data Result {
+741 silly mapToRegistry   raw: 'concat-map',
+741 silly mapToRegistry   scope: null,
+741 silly mapToRegistry   escapedName: 'concat-map',
+741 silly mapToRegistry   name: 'concat-map',
+741 silly mapToRegistry   rawSpec: '',
+741 silly mapToRegistry   spec: 'latest',
+741 silly mapToRegistry   type: 'tag' }
+742 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+743 verbose addNameVersion registry:https://registry.npmjs.org/concat-map not in flight; fetching
+744 silly resolveWithNewModule balanced-match@0.4.2 checking installable status
+745 silly cache add args [ 'balanced-match@^0.4.1', null ]
+746 verbose cache add spec balanced-match@^0.4.1
+747 silly cache add parsed spec Result {
+747 silly cache add   raw: 'balanced-match@^0.4.1',
+747 silly cache add   scope: null,
+747 silly cache add   escapedName: 'balanced-match',
+747 silly cache add   name: 'balanced-match',
+747 silly cache add   rawSpec: '^0.4.1',
+747 silly cache add   spec: '>=0.4.1 <0.5.0',
+747 silly cache add   type: 'range' }
+748 silly addNamed balanced-match@>=0.4.1 <0.5.0
+749 verbose addNamed ">=0.4.1 <0.5.0" is a valid semver range for balanced-match
+750 silly addNameRange { name: 'balanced-match',
+750 silly addNameRange   range: '>=0.4.1 <0.5.0',
+750 silly addNameRange   hasData: false }
+751 silly mapToRegistry name balanced-match
+752 silly mapToRegistry using default registry
+753 silly mapToRegistry registry https://registry.npmjs.org/
+754 silly mapToRegistry data Result {
+754 silly mapToRegistry   raw: 'balanced-match',
+754 silly mapToRegistry   scope: null,
+754 silly mapToRegistry   escapedName: 'balanced-match',
+754 silly mapToRegistry   name: 'balanced-match',
+754 silly mapToRegistry   rawSpec: '',
+754 silly mapToRegistry   spec: 'latest',
+754 silly mapToRegistry   type: 'tag' }
+755 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+756 verbose addNameRange registry:https://registry.npmjs.org/balanced-match not in flight; fetching
+757 verbose get https://registry.npmjs.org/concat-map not expired, no request
+758 silly mapToRegistry name concat-map
+759 silly mapToRegistry using default registry
+760 silly mapToRegistry registry https://registry.npmjs.org/
+761 silly mapToRegistry data Result {
+761 silly mapToRegistry   raw: 'concat-map',
+761 silly mapToRegistry   scope: null,
+761 silly mapToRegistry   escapedName: 'concat-map',
+761 silly mapToRegistry   name: 'concat-map',
+761 silly mapToRegistry   rawSpec: '',
+761 silly mapToRegistry   spec: 'latest',
+761 silly mapToRegistry   type: 'tag' }
+762 silly mapToRegistry uri https://registry.npmjs.org/concat-map
+763 verbose addRemoteTarball https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz not in flight; adding
+764 verbose addRemoteTarball [ 'https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz',
+764 verbose addRemoteTarball   'd8a96bd77fd68df7793a73036a3ba0d5405d477b' ]
+765 verbose get https://registry.npmjs.org/balanced-match not expired, no request
+766 silly addNameRange number 2 { name: 'balanced-match',
+766 silly addNameRange   range: '>=0.4.1 <0.5.0',
+766 silly addNameRange   hasData: true }
+767 silly addNameRange versions [ 'balanced-match',
+767 silly addNameRange   [ '0.0.0',
+767 silly addNameRange     '0.0.1',
+767 silly addNameRange     '0.1.0',
+767 silly addNameRange     '0.2.0',
+767 silly addNameRange     '0.2.1',
+767 silly addNameRange     '0.3.0',
+767 silly addNameRange     '0.4.0',
+767 silly addNameRange     '0.4.1',
+767 silly addNameRange     '0.4.2' ] ]
+768 silly addNamed balanced-match@0.4.2
+769 verbose addNamed "0.4.2" is a plain semver version for balanced-match
+770 silly mapToRegistry name balanced-match
+771 silly mapToRegistry using default registry
+772 silly mapToRegistry registry https://registry.npmjs.org/
+773 silly mapToRegistry data Result {
+773 silly mapToRegistry   raw: 'balanced-match',
+773 silly mapToRegistry   scope: null,
+773 silly mapToRegistry   escapedName: 'balanced-match',
+773 silly mapToRegistry   name: 'balanced-match',
+773 silly mapToRegistry   rawSpec: '',
+773 silly mapToRegistry   spec: 'latest',
+773 silly mapToRegistry   type: 'tag' }
+774 silly mapToRegistry uri https://registry.npmjs.org/balanced-match
+775 verbose addRemoteTarball https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz not in flight; adding
+776 verbose addRemoteTarball [ 'https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz',
+776 verbose addRemoteTarball   'cb3f3e3c732dc0f01ee70b403f302e61d7709838' ]
+777 info retry fetch attempt 1 at 1:51:49 PM
+778 info attempt registry request try #1 at 1:51:49 PM
+779 http fetch GET https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz
+780 info retry fetch attempt 1 at 1:51:49 PM
+781 info attempt registry request try #1 at 1:51:49 PM
+782 http fetch GET https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz
+783 http fetch 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz
+784 http fetch 200 https://registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz
+785 silly fetchAndShaCheck shasum cb3f3e3c732dc0f01ee70b403f302e61d7709838
+786 silly fetchAndShaCheck shasum d8a96bd77fd68df7793a73036a3ba0d5405d477b
+787 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/balanced-match/-/balanced-match-0.4.2.tgz not in flight; adding
+788 verbose addTmpTarball already have metadata; skipping unpack for balanced-match@0.4.2
+789 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+790 verbose addTmpTarball /var/folders/k7/lt_40csn35l48d_tnc0cjlfr0000gn/T/npm-11431-3930798d/registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz not in flight; adding
+791 verbose addTmpTarball already have metadata; skipping unpack for concat-map@0.0.1
+792 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+793 silly cache afterAdd concat-map@0.0.1
+794 verbose afterAdd /Users/Drew/.npm/concat-map/0.0.1/package/package.json not in flight; writing
+795 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+796 silly cache afterAdd balanced-match@0.4.2
+797 verbose afterAdd /Users/Drew/.npm/balanced-match/0.4.2/package/package.json not in flight; writing
+798 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+799 verbose afterAdd /Users/Drew/.npm/concat-map/0.0.1/package/package.json written
+800 verbose afterAdd /Users/Drew/.npm/balanced-match/0.4.2/package/package.json written
+801 silly fetchNamedPackageData abbrev
+802 silly mapToRegistry name abbrev
+803 silly mapToRegistry using default registry
+804 silly mapToRegistry registry https://registry.npmjs.org/
+805 silly mapToRegistry data Result {
+805 silly mapToRegistry   raw: 'abbrev',
+805 silly mapToRegistry   scope: null,
+805 silly mapToRegistry   escapedName: 'abbrev',
+805 silly mapToRegistry   name: 'abbrev',
+805 silly mapToRegistry   rawSpec: '',
+805 silly mapToRegistry   spec: 'latest',
+805 silly mapToRegistry   type: 'tag' }
+806 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+807 verbose request uri https://registry.npmjs.org/abbrev
+808 verbose request no auth needed
+809 info attempt registry request try #1 at 1:51:49 PM
+810 verbose etag W/"58ad63b6-1e8f"
+811 verbose lastModified Wed, 22 Feb 2017 10:11:02 GMT
+812 http request GET https://registry.npmjs.org/abbrev
+813 http 304 https://registry.npmjs.org/abbrev
+814 verbose headers { date: 'Wed, 22 Feb 2017 18:52:29 GMT',
+814 verbose headers   via: '1.1 varnish',
+814 verbose headers   'cache-control': 'max-age=300',
+814 verbose headers   etag: 'W/"58ad63b6-1e8f"',
+814 verbose headers   age: '0',
+814 verbose headers   connection: 'keep-alive',
+814 verbose headers   'x-served-by': 'cache-bos8226-BOS',
+814 verbose headers   'x-cache': 'HIT',
+814 verbose headers   'x-cache-hits': '1',
+814 verbose headers   'x-timer': 'S1487789549.079480,VS0,VE26',
+814 verbose headers   vary: 'Accept-Encoding' }
+815 silly get cb [ 304,
+815 silly get   { date: 'Wed, 22 Feb 2017 18:52:29 GMT',
+815 silly get     via: '1.1 varnish',
+815 silly get     'cache-control': 'max-age=300',
+815 silly get     etag: 'W/"58ad63b6-1e8f"',
+815 silly get     age: '0',
+815 silly get     connection: 'keep-alive',
+815 silly get     'x-served-by': 'cache-bos8226-BOS',
+815 silly get     'x-cache': 'HIT',
+815 silly get     'x-cache-hits': '1',
+815 silly get     'x-timer': 'S1487789549.079480,VS0,VE26',
+815 silly get     vary: 'Accept-Encoding' } ]
+816 verbose etag https://registry.npmjs.org/abbrev from cache
+817 verbose get saving abbrev to /Users/Drew/.npm/registry.npmjs.org/abbrev/.cache.json
+818 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+819 silly resolveWithNewModule abbrev@1.1.0 checking installable status
+820 silly cache add args [ 'abbrev@1', null ]
+821 verbose cache add spec abbrev@1
+822 silly cache add parsed spec Result {
+822 silly cache add   raw: 'abbrev@1',
+822 silly cache add   scope: null,
+822 silly cache add   escapedName: 'abbrev',
+822 silly cache add   name: 'abbrev',
+822 silly cache add   rawSpec: '1',
+822 silly cache add   spec: '>=1.0.0 <2.0.0',
+822 silly cache add   type: 'range' }
+823 silly addNamed abbrev@>=1.0.0 <2.0.0
+824 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for abbrev
+825 silly addNameRange { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: false }
+826 silly mapToRegistry name abbrev
+827 silly mapToRegistry using default registry
+828 silly mapToRegistry registry https://registry.npmjs.org/
+829 silly mapToRegistry data Result {
+829 silly mapToRegistry   raw: 'abbrev',
+829 silly mapToRegistry   scope: null,
+829 silly mapToRegistry   escapedName: 'abbrev',
+829 silly mapToRegistry   name: 'abbrev',
+829 silly mapToRegistry   rawSpec: '',
+829 silly mapToRegistry   spec: 'latest',
+829 silly mapToRegistry   type: 'tag' }
+830 silly mapToRegistry uri https://registry.npmjs.org/abbrev
+831 verbose addNameRange registry:https://registry.npmjs.org/abbrev not in flight; fetching
+832 verbose get https://registry.npmjs.org/abbrev not expired, no request
+833 silly addNameRange number 2 { name: 'abbrev', range: '>=1.0.0 <2.0.0', hasData: true }
+834 silly addNameRange versions [ 'abbrev',
+834 silly addNameRange   [ '1.0.3', '1.0.4', '1.0.5', '1.0.6', '1.0.7', '1.0.9', '1.1.0' ] ]
+835 silly addNamed abbrev@1.1.0
+836 verbose addNamed "1.1.0" is a plain semver version for abbrev
+837 silly cache afterAdd abbrev@1.1.0
+838 verbose afterAdd /Users/Drew/.npm/abbrev/1.1.0/package/package.json not in flight; writing
+839 verbose correctMkdir /Users/Drew/.npm correctMkdir not in flight; initializing
+840 verbose afterAdd /Users/Drew/.npm/abbrev/1.1.0/package/package.json written
+841 silly loadAllDepsIntoIdealTree Finishing
+842 silly loadIdealTree Finishing
+843 silly currentTree lib
+844 silly idealTree lib
+844 silly idealTree └─┬ grunt-cli@1.2.0
+844 silly idealTree   ├── abbrev@1.1.0
+844 silly idealTree   ├── balanced-match@0.4.2
+844 silly idealTree   ├── brace-expansion@1.1.6
+844 silly idealTree   ├── concat-map@0.0.1
+844 silly idealTree   ├── findup-sync@0.3.0
+844 silly idealTree   ├── glob@5.0.15
+844 silly idealTree   ├── grunt-known-options@1.1.0
+844 silly idealTree   ├── inflight@1.0.6
+844 silly idealTree   ├── inherits@2.0.3
+844 silly idealTree   ├── minimatch@3.0.3
+844 silly idealTree   ├── nopt@3.0.6
+844 silly idealTree   ├── once@1.4.0
+844 silly idealTree   ├── path-is-absolute@1.0.1
+844 silly idealTree   ├── resolve@1.1.7
+844 silly idealTree   └── wrappy@1.0.2
+845 silly generateActionsToTake Starting
+846 silly install generateActionsToTake
+847 silly generateActionsToTake Finishing
+848 silly diffTrees action count 16
+849 silly diffTrees add abbrev@1.1.0
+850 silly diffTrees add balanced-match@0.4.2
+851 silly diffTrees add concat-map@0.0.1
+852 silly diffTrees add brace-expansion@1.1.6
+853 silly diffTrees add inherits@2.0.3
+854 silly diffTrees add minimatch@3.0.3
+855 silly diffTrees add path-is-absolute@1.0.1
+856 silly diffTrees add wrappy@1.0.2
+857 silly diffTrees add once@1.4.0
+858 silly diffTrees add inflight@1.0.6
+859 silly diffTrees add glob@5.0.15
+860 silly diffTrees add findup-sync@0.3.0
+861 silly diffTrees add grunt-known-options@1.1.0
+862 silly diffTrees add nopt@3.0.6
+863 silly diffTrees add resolve@1.1.7
+864 silly diffTrees add grunt-cli@1.2.0
+865 silly decomposeActions action count 128
+866 silly decomposeActions fetch abbrev@1.1.0
+867 silly decomposeActions extract abbrev@1.1.0
+868 silly decomposeActions test abbrev@1.1.0
+869 silly decomposeActions preinstall abbrev@1.1.0
+870 silly decomposeActions build abbrev@1.1.0
+871 silly decomposeActions install abbrev@1.1.0
+872 silly decomposeActions postinstall abbrev@1.1.0
+873 silly decomposeActions finalize abbrev@1.1.0
+874 silly decomposeActions fetch balanced-match@0.4.2
+875 silly decomposeActions extract balanced-match@0.4.2
+876 silly decomposeActions test balanced-match@0.4.2
+877 silly decomposeActions preinstall balanced-match@0.4.2
+878 silly decomposeActions build balanced-match@0.4.2
+879 silly decomposeActions install balanced-match@0.4.2
+880 silly decomposeActions postinstall balanced-match@0.4.2
+881 silly decomposeActions finalize balanced-match@0.4.2
+882 silly decomposeActions fetch concat-map@0.0.1
+883 silly decomposeActions extract concat-map@0.0.1
+884 silly decomposeActions test concat-map@0.0.1
+885 silly decomposeActions preinstall concat-map@0.0.1
+886 silly decomposeActions build concat-map@0.0.1
+887 silly decomposeActions install concat-map@0.0.1
+888 silly decomposeActions postinstall concat-map@0.0.1
+889 silly decomposeActions finalize concat-map@0.0.1
+890 silly decomposeActions fetch brace-expansion@1.1.6
+891 silly decomposeActions extract brace-expansion@1.1.6
+892 silly decomposeActions test brace-expansion@1.1.6
+893 silly decomposeActions preinstall brace-expansion@1.1.6
+894 silly decomposeActions build brace-expansion@1.1.6
+895 silly decomposeActions install brace-expansion@1.1.6
+896 silly decomposeActions postinstall brace-expansion@1.1.6
+897 silly decomposeActions finalize brace-expansion@1.1.6
+898 silly decomposeActions fetch inherits@2.0.3
+899 silly decomposeActions extract inherits@2.0.3
+900 silly decomposeActions test inherits@2.0.3
+901 silly decomposeActions preinstall inherits@2.0.3
+902 silly decomposeActions build inherits@2.0.3
+903 silly decomposeActions install inherits@2.0.3
+904 silly decomposeActions postinstall inherits@2.0.3
+905 silly decomposeActions finalize inherits@2.0.3
+906 silly decomposeActions fetch minimatch@3.0.3
+907 silly decomposeActions extract minimatch@3.0.3
+908 silly decomposeActions test minimatch@3.0.3
+909 silly decomposeActions preinstall minimatch@3.0.3
+910 silly decomposeActions build minimatch@3.0.3
+911 silly decomposeActions install minimatch@3.0.3
+912 silly decomposeActions postinstall minimatch@3.0.3
+913 silly decomposeActions finalize minimatch@3.0.3
+914 silly decomposeActions fetch path-is-absolute@1.0.1
+915 silly decomposeActions extract path-is-absolute@1.0.1
+916 silly decomposeActions test path-is-absolute@1.0.1
+917 silly decomposeActions preinstall path-is-absolute@1.0.1
+918 silly decomposeActions build path-is-absolute@1.0.1
+919 silly decomposeActions install path-is-absolute@1.0.1
+920 silly decomposeActions postinstall path-is-absolute@1.0.1
+921 silly decomposeActions finalize path-is-absolute@1.0.1
+922 silly decomposeActions fetch wrappy@1.0.2
+923 silly decomposeActions extract wrappy@1.0.2
+924 silly decomposeActions test wrappy@1.0.2
+925 silly decomposeActions preinstall wrappy@1.0.2
+926 silly decomposeActions build wrappy@1.0.2
+927 silly decomposeActions install wrappy@1.0.2
+928 silly decomposeActions postinstall wrappy@1.0.2
+929 silly decomposeActions finalize wrappy@1.0.2
+930 silly decomposeActions fetch once@1.4.0
+931 silly decomposeActions extract once@1.4.0
+932 silly decomposeActions test once@1.4.0
+933 silly decomposeActions preinstall once@1.4.0
+934 silly decomposeActions build once@1.4.0
+935 silly decomposeActions install once@1.4.0
+936 silly decomposeActions postinstall once@1.4.0
+937 silly decomposeActions finalize once@1.4.0
+938 silly decomposeActions fetch inflight@1.0.6
+939 silly decomposeActions extract inflight@1.0.6
+940 silly decomposeActions test inflight@1.0.6
+941 silly decomposeActions preinstall inflight@1.0.6
+942 silly decomposeActions build inflight@1.0.6
+943 silly decomposeActions install inflight@1.0.6
+944 silly decomposeActions postinstall inflight@1.0.6
+945 silly decomposeActions finalize inflight@1.0.6
+946 silly decomposeActions fetch glob@5.0.15
+947 silly decomposeActions extract glob@5.0.15
+948 silly decomposeActions test glob@5.0.15
+949 silly decomposeActions preinstall glob@5.0.15
+950 silly decomposeActions build glob@5.0.15
+951 silly decomposeActions install glob@5.0.15
+952 silly decomposeActions postinstall glob@5.0.15
+953 silly decomposeActions finalize glob@5.0.15
+954 silly decomposeActions fetch findup-sync@0.3.0
+955 silly decomposeActions extract findup-sync@0.3.0
+956 silly decomposeActions test findup-sync@0.3.0
+957 silly decomposeActions preinstall findup-sync@0.3.0
+958 silly decomposeActions build findup-sync@0.3.0
+959 silly decomposeActions install findup-sync@0.3.0
+960 silly decomposeActions postinstall findup-sync@0.3.0
+961 silly decomposeActions finalize findup-sync@0.3.0
+962 silly decomposeActions fetch grunt-known-options@1.1.0
+963 silly decomposeActions extract grunt-known-options@1.1.0
+964 silly decomposeActions test grunt-known-options@1.1.0
+965 silly decomposeActions preinstall grunt-known-options@1.1.0
+966 silly decomposeActions build grunt-known-options@1.1.0
+967 silly decomposeActions install grunt-known-options@1.1.0
+968 silly decomposeActions postinstall grunt-known-options@1.1.0
+969 silly decomposeActions finalize grunt-known-options@1.1.0
+970 silly decomposeActions fetch nopt@3.0.6
+971 silly decomposeActions extract nopt@3.0.6
+972 silly decomposeActions test nopt@3.0.6
+973 silly decomposeActions preinstall nopt@3.0.6
+974 silly decomposeActions build nopt@3.0.6
+975 silly decomposeActions install nopt@3.0.6
+976 silly decomposeActions postinstall nopt@3.0.6
+977 silly decomposeActions finalize nopt@3.0.6
+978 silly decomposeActions fetch resolve@1.1.7
+979 silly decomposeActions extract resolve@1.1.7
+980 silly decomposeActions test resolve@1.1.7
+981 silly decomposeActions preinstall resolve@1.1.7
+982 silly decomposeActions build resolve@1.1.7
+983 silly decomposeActions install resolve@1.1.7
+984 silly decomposeActions postinstall resolve@1.1.7
+985 silly decomposeActions finalize resolve@1.1.7
+986 silly decomposeActions fetch grunt-cli@1.2.0
+987 silly decomposeActions extract grunt-cli@1.2.0
+988 silly decomposeActions test grunt-cli@1.2.0
+989 silly decomposeActions preinstall grunt-cli@1.2.0
+990 silly decomposeActions build grunt-cli@1.2.0
+991 silly decomposeActions install grunt-cli@1.2.0
+992 silly decomposeActions postinstall grunt-cli@1.2.0
+993 silly decomposeActions finalize grunt-cli@1.2.0
+994 silly runTopLevelLifecycles Starting
+995 silly executeActions Starting
+996 silly install executeActions
+997 silly doSerial global-install 0
+998 silly doParallel fetch 16
+999 verbose correctMkdir /Users/Drew/.npm/_locks correctMkdir not in flight; initializing
+1000 verbose lock using /Users/Drew/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+1001 silly doParallel extract 16
+1002 silly extract abbrev@1.1.0
+1003 silly extract balanced-match@0.4.2
+1004 silly extract concat-map@0.0.1
+1005 silly extract brace-expansion@1.1.6
+1006 silly extract inherits@2.0.3
+1007 silly extract minimatch@3.0.3
+1008 silly extract path-is-absolute@1.0.1
+1009 silly extract wrappy@1.0.2
+1010 silly extract once@1.4.0
+1011 silly extract inflight@1.0.6
+1012 silly extract glob@5.0.15
+1013 silly extract findup-sync@0.3.0
+1014 silly extract grunt-known-options@1.1.0
+1015 silly extract nopt@3.0.6
+1016 silly extract resolve@1.1.7
+1017 silly extract grunt-cli@1.2.0
+1018 verbose unbuild lib/node_modules/.staging/concat-map-e2673910
+1019 verbose unbuild lib/node_modules/.staging/abbrev-693b29c1
+1020 verbose unbuild lib/node_modules/.staging/balanced-match-a6157924
+1021 verbose unbuild lib/node_modules/.staging/brace-expansion-2db85e18
+1022 verbose unbuild lib/node_modules/.staging/inherits-2fca3246
+1023 verbose unbuild lib/node_modules/.staging/minimatch-1acf85ef
+1024 verbose unbuild lib/node_modules/.staging/path-is-absolute-0ac07215
+1025 verbose unbuild lib/node_modules/.staging/once-c5e08187
+1026 verbose unbuild lib/node_modules/.staging/wrappy-2e68a4eb
+1027 verbose unbuild lib/node_modules/.staging/inflight-50f98cd4
+1028 verbose unbuild lib/node_modules/.staging/glob-704c1ec0
+1029 verbose unbuild lib/node_modules/.staging/findup-sync-02425b18
+1030 verbose unbuild lib/node_modules/.staging/grunt-known-options-36984651
+1031 verbose unbuild lib/node_modules/.staging/resolve-c22cca08
+1032 verbose unbuild lib/node_modules/.staging/nopt-6cb10040
+1033 verbose unbuild lib/node_modules/.staging/grunt-cli-9495d60f
+1034 silly gentlyRm /usr/local/lib/node_modules/.staging/concat-map-e2673910 is being purged from base /usr/local
+1035 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/concat-map-e2673910
+1036 silly gentlyRm /usr/local/lib/node_modules/.staging/abbrev-693b29c1 is being purged from base /usr/local
+1037 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/abbrev-693b29c1
+1038 silly gentlyRm /usr/local/lib/node_modules/.staging/balanced-match-a6157924 is being purged from base /usr/local
+1039 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/balanced-match-a6157924
+1040 silly gentlyRm /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18 is being purged from base /usr/local
+1041 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18
+1042 silly gentlyRm /usr/local/lib/node_modules/.staging/inherits-2fca3246 is being purged from base /usr/local
+1043 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inherits-2fca3246
+1044 silly gentlyRm /usr/local/lib/node_modules/.staging/minimatch-1acf85ef is being purged from base /usr/local
+1045 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/minimatch-1acf85ef
+1046 silly gentlyRm /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215 is being purged from base /usr/local
+1047 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215
+1048 silly gentlyRm /usr/local/lib/node_modules/.staging/once-c5e08187 is being purged from base /usr/local
+1049 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/once-c5e08187
+1050 silly gentlyRm /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb is being purged from base /usr/local
+1051 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb
+1052 silly gentlyRm /usr/local/lib/node_modules/.staging/inflight-50f98cd4 is being purged from base /usr/local
+1053 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inflight-50f98cd4
+1054 silly gentlyRm /usr/local/lib/node_modules/.staging/glob-704c1ec0 is being purged from base /usr/local
+1055 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/glob-704c1ec0
+1056 silly gentlyRm /usr/local/lib/node_modules/.staging/findup-sync-02425b18 is being purged from base /usr/local
+1057 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/findup-sync-02425b18
+1058 silly gentlyRm /usr/local/lib/node_modules/.staging/grunt-known-options-36984651 is being purged from base /usr/local
+1059 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/grunt-known-options-36984651
+1060 silly gentlyRm /usr/local/lib/node_modules/.staging/resolve-c22cca08 is being purged from base /usr/local
+1061 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/resolve-c22cca08
+1062 verbose tar unpack /Users/Drew/.npm/concat-map/0.0.1/package.tgz
+1063 verbose tar unpacking to /usr/local/lib/node_modules/.staging/concat-map-e2673910
+1064 silly gentlyRm /usr/local/lib/node_modules/.staging/concat-map-e2673910 is being purged
+1065 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/concat-map-e2673910
+1066 verbose tar unpack /Users/Drew/.npm/abbrev/1.1.0/package.tgz
+1067 verbose tar unpacking to /usr/local/lib/node_modules/.staging/abbrev-693b29c1
+1068 silly gentlyRm /usr/local/lib/node_modules/.staging/abbrev-693b29c1 is being purged
+1069 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/abbrev-693b29c1
+1070 verbose tar unpack /Users/Drew/.npm/balanced-match/0.4.2/package.tgz
+1071 verbose tar unpacking to /usr/local/lib/node_modules/.staging/balanced-match-a6157924
+1072 silly gentlyRm /usr/local/lib/node_modules/.staging/balanced-match-a6157924 is being purged
+1073 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/balanced-match-a6157924
+1074 verbose tar unpack /Users/Drew/.npm/brace-expansion/1.1.6/package.tgz
+1075 verbose tar unpacking to /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18
+1076 silly gentlyRm /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18 is being purged
+1077 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18
+1078 verbose tar unpack /Users/Drew/.npm/inherits/2.0.3/package.tgz
+1079 verbose tar unpacking to /usr/local/lib/node_modules/.staging/inherits-2fca3246
+1080 silly gentlyRm /usr/local/lib/node_modules/.staging/inherits-2fca3246 is being purged
+1081 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inherits-2fca3246
+1082 verbose tar unpack /Users/Drew/.npm/minimatch/3.0.3/package.tgz
+1083 verbose tar unpacking to /usr/local/lib/node_modules/.staging/minimatch-1acf85ef
+1084 silly gentlyRm /usr/local/lib/node_modules/.staging/minimatch-1acf85ef is being purged
+1085 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/minimatch-1acf85ef
+1086 verbose tar unpack /Users/Drew/.npm/path-is-absolute/1.0.1/package.tgz
+1087 verbose tar unpacking to /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215
+1088 silly gentlyRm /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215 is being purged
+1089 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215
+1090 verbose tar unpack /Users/Drew/.npm/once/1.4.0/package.tgz
+1091 verbose tar unpacking to /usr/local/lib/node_modules/.staging/once-c5e08187
+1092 silly gentlyRm /usr/local/lib/node_modules/.staging/once-c5e08187 is being purged
+1093 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/once-c5e08187
+1094 verbose tar unpack /Users/Drew/.npm/wrappy/1.0.2/package.tgz
+1095 verbose tar unpacking to /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb
+1096 silly gentlyRm /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb is being purged
+1097 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb
+1098 verbose tar unpack /Users/Drew/.npm/inflight/1.0.6/package.tgz
+1099 verbose tar unpacking to /usr/local/lib/node_modules/.staging/inflight-50f98cd4
+1100 silly gentlyRm /usr/local/lib/node_modules/.staging/inflight-50f98cd4 is being purged
+1101 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inflight-50f98cd4
+1102 verbose tar unpack /Users/Drew/.npm/glob/5.0.15/package.tgz
+1103 verbose tar unpacking to /usr/local/lib/node_modules/.staging/glob-704c1ec0
+1104 silly gentlyRm /usr/local/lib/node_modules/.staging/glob-704c1ec0 is being purged
+1105 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/glob-704c1ec0
+1106 verbose tar unpack /Users/Drew/.npm/findup-sync/0.3.0/package.tgz
+1107 verbose tar unpacking to /usr/local/lib/node_modules/.staging/findup-sync-02425b18
+1108 silly gentlyRm /usr/local/lib/node_modules/.staging/findup-sync-02425b18 is being purged
+1109 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/findup-sync-02425b18
+1110 verbose tar unpack /Users/Drew/.npm/grunt-known-options/1.1.0/package.tgz
+1111 verbose tar unpacking to /usr/local/lib/node_modules/.staging/grunt-known-options-36984651
+1112 silly gentlyRm /usr/local/lib/node_modules/.staging/grunt-known-options-36984651 is being purged
+1113 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/grunt-known-options-36984651
+1114 silly gentlyRm /usr/local/lib/node_modules/.staging/nopt-6cb10040 is being purged from base /usr/local
+1115 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/nopt-6cb10040
+1116 verbose tar unpack /Users/Drew/.npm/resolve/1.1.7/package.tgz
+1117 verbose tar unpacking to /usr/local/lib/node_modules/.staging/resolve-c22cca08
+1118 silly gentlyRm /usr/local/lib/node_modules/.staging/resolve-c22cca08 is being purged
+1119 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/resolve-c22cca08
+1120 silly gentlyRm /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f is being purged from base /usr/local
+1121 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f
+1122 silly gunzTarPerm modes [ '755', '644' ]
+1123 silly gunzTarPerm modes [ '755', '644' ]
+1124 silly gunzTarPerm modes [ '755', '644' ]
+1125 silly gunzTarPerm modes [ '755', '644' ]
+1126 silly gunzTarPerm modes [ '755', '644' ]
+1127 silly gunzTarPerm modes [ '755', '644' ]
+1128 silly gunzTarPerm modes [ '755', '644' ]
+1129 silly gunzTarPerm modes [ '755', '644' ]
+1130 silly gunzTarPerm modes [ '755', '644' ]
+1131 silly gunzTarPerm modes [ '755', '644' ]
+1132 silly gunzTarPerm modes [ '755', '644' ]
+1133 silly gunzTarPerm modes [ '755', '644' ]
+1134 silly gunzTarPerm modes [ '755', '644' ]
+1135 verbose tar unpack /Users/Drew/.npm/nopt/3.0.6/package.tgz
+1136 verbose tar unpacking to /usr/local/lib/node_modules/.staging/nopt-6cb10040
+1137 silly gentlyRm /usr/local/lib/node_modules/.staging/nopt-6cb10040 is being purged
+1138 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/nopt-6cb10040
+1139 silly gunzTarPerm modes [ '755', '644' ]
+1140 verbose tar unpack /Users/Drew/.npm/grunt-cli/1.2.0/package.tgz
+1141 verbose tar unpacking to /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f
+1142 silly gentlyRm /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f is being purged
+1143 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f
+1144 silly gunzTarPerm modes [ '755', '644' ]
+1145 silly gunzTarPerm modes [ '755', '644' ]
+1146 silly gunzTarPerm extractEntry package.json
+1147 silly gunzTarPerm extractEntry package.json
+1148 silly gunzTarPerm extractEntry package.json
+1149 silly gunzTarPerm extractEntry package.json
+1150 silly gunzTarPerm extractEntry package.json
+1151 silly gunzTarPerm extractEntry package.json
+1152 silly gunzTarPerm extractEntry package.json
+1153 silly gunzTarPerm extractEntry package.json
+1154 silly gunzTarPerm extractEntry package.json
+1155 silly gunzTarPerm extractEntry package.json
+1156 silly gunzTarPerm extractEntry package.json
+1157 silly gunzTarPerm extractEntry package.json
+1158 silly gunzTarPerm extractEntry package.json
+1159 silly gunzTarPerm extractEntry package.json
+1160 silly gunzTarPerm extractEntry package.json
+1161 silly gunzTarPerm extractEntry package.json
+1162 silly gunzTarPerm extractEntry README.md
+1163 silly gunzTarPerm extractEntry LICENSE
+1164 silly gunzTarPerm extractEntry .npmignore
+1165 silly gunzTarPerm extractEntry README.md
+1166 silly gunzTarPerm extractEntry README.md
+1167 silly gunzTarPerm extractEntry index.js
+1168 silly gunzTarPerm extractEntry README.md
+1169 silly gunzTarPerm extractEntry LICENSE
+1170 silly gunzTarPerm extractEntry index.js
+1171 silly gunzTarPerm extractEntry license
+1172 silly gunzTarPerm extractEntry README.md
+1173 silly gunzTarPerm extractEntry LICENSE
+1174 silly gunzTarPerm extractEntry README.md
+1175 silly gunzTarPerm extractEntry LICENSE
+1176 silly gunzTarPerm extractEntry README.md
+1177 silly gunzTarPerm extractEntry LICENSE
+1178 silly gunzTarPerm extractEntry .npmignore
+1179 silly gunzTarPerm extractEntry README.md
+1180 silly gunzTarPerm extractEntry README.md
+1181 silly gunzTarPerm extractEntry LICENSE
+1182 silly gunzTarPerm extractEntry README.md
+1183 silly gunzTarPerm extractEntry LICENSE
+1184 silly gunzTarPerm extractEntry LICENSE
+1185 silly gunzTarPerm extractEntry index.js
+1186 silly gunzTarPerm extractEntry README.md
+1187 silly gunzTarPerm extractEntry LICENSE
+1188 silly gunzTarPerm extractEntry common.js
+1189 silly gunzTarPerm extractEntry glob.js
+1190 silly gunzTarPerm extractEntry sync.js
+1191 silly gunzTarPerm extractEntry LICENSE
+1192 silly gunzTarPerm extractEntry index.js
+1193 silly gunzTarPerm extractEntry README.md
+1194 silly gunzTarPerm extractEntry CHANGELOG.md
+1195 silly gunzTarPerm extractEntry .npmignore
+1196 silly gunzTarPerm extractEntry README.md
+1197 silly gunzTarPerm extractEntry abbrev.js
+1198 silly gunzTarPerm extractEntry index.js
+1199 silly gunzTarPerm extractEntry index.js
+1200 silly gunzTarPerm extractEntry LICENSE.md
+1201 silly gunzTarPerm extractEntry inherits.js
+1202 silly gunzTarPerm extractEntry inherits_browser.js
+1203 silly gunzTarPerm extractEntry readme.md
+1204 silly gunzTarPerm extractEntry once.js
+1205 silly gunzTarPerm extractEntry LICENSE-MIT
+1206 silly gunzTarPerm extractEntry lib/findup-sync.js
+1207 silly gunzTarPerm extractEntry inflight.js
+1208 silly gunzTarPerm extractEntry wrappy.js
+1209 silly gunzTarPerm extractEntry .travis.yml
+1210 silly gunzTarPerm extractEntry example/async.js
+1211 silly gunzTarPerm extractEntry LICENSE
+1212 silly gunzTarPerm extractEntry .travis.yml
+1213 silly gunzTarPerm extractEntry minimatch.js
+1214 silly gunzTarPerm extractEntry .travis.yml
+1215 silly gunzTarPerm extractEntry README.markdown
+1216 silly gunzTarPerm extractEntry bin/grunt
+1217 silly gunzTarPerm extractEntry completion/bash
+1218 silly gunzTarPerm extractEntry bin/nopt.js
+1219 silly gunzTarPerm extractEntry examples/my-program.js
+1220 silly gunzTarPerm extractEntry example/sync.js
+1221 silly gunzTarPerm extractEntry lib/async.js
+1222 silly gunzTarPerm extractEntry example/map.js
+1223 silly gunzTarPerm extractEntry test/map.js
+1224 silly gunzTarPerm extractEntry completion/zsh
+1225 silly gunzTarPerm extractEntry lib/cli.js
+1226 silly gunzTarPerm extractEntry lib/caller.js
+1227 silly gunzTarPerm extractEntry lib/core.js
+1228 silly gunzTarPerm extractEntry lib/nopt.js
+1229 silly gunzTarPerm extractEntry lib/completion.js
+1230 silly gunzTarPerm extractEntry lib/info.js
+1231 silly gunzTarPerm extractEntry lib/node-modules-paths.js
+1232 silly gunzTarPerm extractEntry test/basic.js
+1233 silly gentlyRm /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18/node_modules is being purged
+1234 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18/node_modules
+1235 silly gunzTarPerm extractEntry lib/sync.js
+1236 silly gunzTarPerm extractEntry lib/core.json
+1237 silly gentlyRm /usr/local/lib/node_modules/.staging/abbrev-693b29c1/node_modules is being purged
+1238 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/abbrev-693b29c1/node_modules
+1239 silly gentlyRm /usr/local/lib/node_modules/.staging/grunt-known-options-36984651/node_modules is being purged
+1240 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/grunt-known-options-36984651/node_modules
+1241 silly gentlyRm /usr/local/lib/node_modules/.staging/once-c5e08187/node_modules is being purged
+1242 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/once-c5e08187/node_modules
+1243 silly gentlyRm /usr/local/lib/node_modules/.staging/inflight-50f98cd4/node_modules is being purged
+1244 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inflight-50f98cd4/node_modules
+1245 silly gentlyRm /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215/node_modules is being purged
+1246 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215/node_modules
+1247 silly gunzTarPerm extractEntry readme.markdown
+1248 silly gunzTarPerm extractEntry test/core.js
+1249 silly gentlyRm /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb/node_modules is being purged
+1250 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb/node_modules
+1251 silly gentlyRm /usr/local/lib/node_modules/.staging/minimatch-1acf85ef/node_modules is being purged
+1252 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/minimatch-1acf85ef/node_modules
+1253 silly gentlyRm /usr/local/lib/node_modules/.staging/inherits-2fca3246/node_modules is being purged
+1254 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/inherits-2fca3246/node_modules
+1255 silly gentlyRm /usr/local/lib/node_modules/.staging/balanced-match-a6157924/node_modules is being purged
+1256 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/balanced-match-a6157924/node_modules
+1257 silly gentlyRm /usr/local/lib/node_modules/.staging/findup-sync-02425b18/node_modules is being purged
+1258 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/findup-sync-02425b18/node_modules
+1259 silly gunzTarPerm extractEntry test/filter.js
+1260 silly gunzTarPerm extractEntry test/filter_sync.js
+1261 silly gunzTarPerm extractEntry test/mock.js
+1262 silly gunzTarPerm extractEntry test/faulty_basedir.js
+1263 silly gentlyRm /usr/local/lib/node_modules/.staging/glob-704c1ec0/node_modules is being purged
+1264 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/glob-704c1ec0/node_modules
+1265 silly gentlyRm /usr/local/lib/node_modules/.staging/concat-map-e2673910/node_modules is being purged
+1266 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/concat-map-e2673910/node_modules
+1267 silly gunzTarPerm extractEntry test/resolver_sync.js
+1268 silly gunzTarPerm extractEntry test/module_dir.js
+1269 silly gunzTarPerm extractEntry test/resolver.js
+1270 silly gunzTarPerm extractEntry test/precedence.js
+1271 silly gunzTarPerm extractEntry test/nonstring.js
+1272 silly gunzTarPerm extractEntry test/dotdot.js
+1273 silly gentlyRm /usr/local/lib/node_modules/.staging/nopt-6cb10040/node_modules is being purged
+1274 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/nopt-6cb10040/node_modules
+1275 silly gentlyRm /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f/node_modules is being purged
+1276 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f/node_modules
+1277 silly gunzTarPerm extractEntry test/pathfilter.js
+1278 silly gunzTarPerm extractEntry test/mock_sync.js
+1279 silly gunzTarPerm extractEntry test/subdirs.js
+1280 silly gunzTarPerm extractEntry test/node_path.js
+1281 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/main.js
+1282 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/package.json
+1283 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/alt.js
+1284 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/ref.js
+1285 silly gunzTarPerm extractEntry test/pathfilter/deep_ref/node_modules/deep/deeper/ref.js
+1286 silly gunzTarPerm extractEntry test/precedence/aaa.js
+1287 silly gunzTarPerm extractEntry test/precedence/bbb.js
+1288 silly gunzTarPerm extractEntry test/precedence/aaa/index.js
+1289 silly gunzTarPerm extractEntry test/precedence/aaa/main.js
+1290 silly gunzTarPerm extractEntry test/precedence/bbb/main.js
+1291 silly gunzTarPerm extractEntry test/dotdot/index.js
+1292 silly gunzTarPerm extractEntry test/dotdot/abc/index.js
+1293 silly gunzTarPerm extractEntry test/resolver/foo.js
+1294 silly gunzTarPerm extractEntry test/resolver/mug.js
+1295 silly gunzTarPerm extractEntry test/resolver/mug.coffee
+1296 silly gunzTarPerm extractEntry test/resolver/cup.coffee
+1297 silly gunzTarPerm extractEntry test/resolver/bar/node_modules/foo/index.js
+1298 silly gunzTarPerm extractEntry test/resolver/incorrect_main/package.json
+1299 silly gunzTarPerm extractEntry test/resolver/incorrect_main/index.js
+1300 silly gunzTarPerm extractEntry test/resolver/baz/package.json
+1301 silly gunzTarPerm extractEntry test/resolver/baz/doom.js
+1302 silly gunzTarPerm extractEntry test/resolver/baz/quux.js
+1303 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/package.json
+1304 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/garply/lib/index.js
+1305 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/grux/index.js
+1306 silly gunzTarPerm extractEntry test/resolver/biz/node_modules/tiv/index.js
+1307 silly gunzTarPerm extractEntry test/resolver/other_path/root.js
+1308 silly gunzTarPerm extractEntry test/resolver/other_path/lib/other-lib.js
+1309 silly gunzTarPerm extractEntry test/resolver/punycode/node_modules/punycode/index.js
+1310 silly gunzTarPerm extractEntry test/resolver/quux/foo/index.js
+1311 silly gunzTarPerm extractEntry test/resolver/without_basedir/main.js
+1312 silly gunzTarPerm extractEntry test/resolver/without_basedir/node_modules/mymodule.js
+1313 silly gunzTarPerm extractEntry test/node_path/x/aaa/index.js
+1314 silly gunzTarPerm extractEntry test/node_path/x/ccc/index.js
+1315 silly gunzTarPerm extractEntry test/node_path/y/bbb/index.js
+1316 silly gunzTarPerm extractEntry test/node_path/y/ccc/index.js
+1317 silly gunzTarPerm extractEntry test/module_dir/xmodules/aaa/index.js
+1318 silly gunzTarPerm extractEntry test/module_dir/ymodules/aaa/index.js
+1319 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/package.json
+1320 silly gunzTarPerm extractEntry test/module_dir/zmodules/bbb/main.js
+1321 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/package.json
+1322 silly gunzTarPerm extractEntry test/subdirs/node_modules/a/b/c/x.json
+1323 silly gentlyRm /usr/local/lib/node_modules/.staging/resolve-c22cca08/node_modules is being purged
+1324 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/resolve-c22cca08/node_modules
+1325 silly doParallel preinstall 16
+1326 silly preinstall abbrev@1.1.0 /usr/local/lib/node_modules/.staging/abbrev-693b29c1
+1327 info lifecycle abbrev@1.1.0~preinstall: abbrev@1.1.0
+1328 silly preinstall balanced-match@0.4.2 /usr/local/lib/node_modules/.staging/balanced-match-a6157924
+1329 info lifecycle balanced-match@0.4.2~preinstall: balanced-match@0.4.2
+1330 silly preinstall concat-map@0.0.1 /usr/local/lib/node_modules/.staging/concat-map-e2673910
+1331 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+1332 silly preinstall brace-expansion@1.1.6 /usr/local/lib/node_modules/.staging/brace-expansion-2db85e18
+1333 info lifecycle brace-expansion@1.1.6~preinstall: brace-expansion@1.1.6
+1334 silly preinstall inherits@2.0.3 /usr/local/lib/node_modules/.staging/inherits-2fca3246
+1335 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+1336 silly preinstall minimatch@3.0.3 /usr/local/lib/node_modules/.staging/minimatch-1acf85ef
+1337 info lifecycle minimatch@3.0.3~preinstall: minimatch@3.0.3
+1338 silly preinstall path-is-absolute@1.0.1 /usr/local/lib/node_modules/.staging/path-is-absolute-0ac07215
+1339 info lifecycle path-is-absolute@1.0.1~preinstall: path-is-absolute@1.0.1
+1340 silly preinstall wrappy@1.0.2 /usr/local/lib/node_modules/.staging/wrappy-2e68a4eb
+1341 info lifecycle wrappy@1.0.2~preinstall: wrappy@1.0.2
+1342 silly preinstall once@1.4.0 /usr/local/lib/node_modules/.staging/once-c5e08187
+1343 info lifecycle once@1.4.0~preinstall: once@1.4.0
+1344 silly preinstall inflight@1.0.6 /usr/local/lib/node_modules/.staging/inflight-50f98cd4
+1345 info lifecycle inflight@1.0.6~preinstall: inflight@1.0.6
+1346 silly preinstall glob@5.0.15 /usr/local/lib/node_modules/.staging/glob-704c1ec0
+1347 info lifecycle glob@5.0.15~preinstall: glob@5.0.15
+1348 silly preinstall findup-sync@0.3.0 /usr/local/lib/node_modules/.staging/findup-sync-02425b18
+1349 info lifecycle findup-sync@0.3.0~preinstall: findup-sync@0.3.0
+1350 silly preinstall grunt-known-options@1.1.0 /usr/local/lib/node_modules/.staging/grunt-known-options-36984651
+1351 info lifecycle grunt-known-options@1.1.0~preinstall: grunt-known-options@1.1.0
+1352 silly preinstall nopt@3.0.6 /usr/local/lib/node_modules/.staging/nopt-6cb10040
+1353 info lifecycle nopt@3.0.6~preinstall: nopt@3.0.6
+1354 silly preinstall resolve@1.1.7 /usr/local/lib/node_modules/.staging/resolve-c22cca08
+1355 info lifecycle resolve@1.1.7~preinstall: resolve@1.1.7
+1356 silly preinstall grunt-cli@1.2.0 /usr/local/lib/node_modules/.staging/grunt-cli-9495d60f
+1357 info lifecycle grunt-cli@1.2.0~preinstall: grunt-cli@1.2.0
+1358 silly lifecycle abbrev@1.1.0~preinstall: no script for preinstall, continuing
+1359 silly lifecycle balanced-match@0.4.2~preinstall: no script for preinstall, continuing
+1360 silly lifecycle concat-map@0.0.1~preinstall: no script for preinstall, continuing
+1361 silly lifecycle brace-expansion@1.1.6~preinstall: no script for preinstall, continuing
+1362 silly lifecycle inherits@2.0.3~preinstall: no script for preinstall, continuing
+1363 silly lifecycle minimatch@3.0.3~preinstall: no script for preinstall, continuing
+1364 silly lifecycle path-is-absolute@1.0.1~preinstall: no script for preinstall, continuing
+1365 silly lifecycle wrappy@1.0.2~preinstall: no script for preinstall, continuing
+1366 silly lifecycle once@1.4.0~preinstall: no script for preinstall, continuing
+1367 silly lifecycle inflight@1.0.6~preinstall: no script for preinstall, continuing
+1368 silly lifecycle glob@5.0.15~preinstall: no script for preinstall, continuing
+1369 silly lifecycle findup-sync@0.3.0~preinstall: no script for preinstall, continuing
+1370 silly lifecycle grunt-known-options@1.1.0~preinstall: no script for preinstall, continuing
+1371 silly lifecycle nopt@3.0.6~preinstall: no script for preinstall, continuing
+1372 silly lifecycle resolve@1.1.7~preinstall: no script for preinstall, continuing
+1373 silly lifecycle grunt-cli@1.2.0~preinstall: no script for preinstall, continuing
+1374 silly doReverseSerial remove 0
+1375 silly doSerial move 0
+1376 silly doSerial finalize 16
+1377 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/abbrev
+1378 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/balanced-match
+1379 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/concat-map
+1380 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/brace-expansion
+1381 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/inherits
+1382 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/minimatch
+1383 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/path-is-absolute
+1384 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/wrappy
+1385 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/once
+1386 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/inflight
+1387 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/glob
+1388 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/findup-sync
+1389 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/grunt-known-options
+1390 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/nopt
+1391 silly finalize /usr/local/lib/node_modules/grunt-cli/node_modules/resolve
+1392 silly finalize /usr/local/lib/node_modules/grunt-cli
+1393 silly doSerial build 16
+1394 silly build abbrev@1.1.0
+1395 info linkStuff abbrev@1.1.0
+1396 silly linkStuff abbrev@1.1.0 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1397 silly linkStuff abbrev@1.1.0 is part of a global install
+1398 silly linkStuff abbrev@1.1.0 is installed into a global node_modules
+1399 verbose linkBins abbrev@1.1.0
+1400 verbose linkMans abbrev@1.1.0
+1401 silly build balanced-match@0.4.2
+1402 info linkStuff balanced-match@0.4.2
+1403 silly linkStuff balanced-match@0.4.2 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1404 silly linkStuff balanced-match@0.4.2 is part of a global install
+1405 silly linkStuff balanced-match@0.4.2 is installed into a global node_modules
+1406 verbose linkBins balanced-match@0.4.2
+1407 verbose linkMans balanced-match@0.4.2
+1408 silly build concat-map@0.0.1
+1409 info linkStuff concat-map@0.0.1
+1410 silly linkStuff concat-map@0.0.1 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1411 silly linkStuff concat-map@0.0.1 is part of a global install
+1412 silly linkStuff concat-map@0.0.1 is installed into a global node_modules
+1413 verbose linkBins concat-map@0.0.1
+1414 verbose linkMans concat-map@0.0.1
+1415 silly build brace-expansion@1.1.6
+1416 info linkStuff brace-expansion@1.1.6
+1417 silly linkStuff brace-expansion@1.1.6 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1418 silly linkStuff brace-expansion@1.1.6 is part of a global install
+1419 silly linkStuff brace-expansion@1.1.6 is installed into a global node_modules
+1420 verbose linkBins brace-expansion@1.1.6
+1421 verbose linkMans brace-expansion@1.1.6
+1422 silly build inherits@2.0.3
+1423 info linkStuff inherits@2.0.3
+1424 silly linkStuff inherits@2.0.3 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1425 silly linkStuff inherits@2.0.3 is part of a global install
+1426 silly linkStuff inherits@2.0.3 is installed into a global node_modules
+1427 verbose linkBins inherits@2.0.3
+1428 verbose linkMans inherits@2.0.3
+1429 silly build minimatch@3.0.3
+1430 info linkStuff minimatch@3.0.3
+1431 silly linkStuff minimatch@3.0.3 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1432 silly linkStuff minimatch@3.0.3 is part of a global install
+1433 silly linkStuff minimatch@3.0.3 is installed into a global node_modules
+1434 verbose linkBins minimatch@3.0.3
+1435 verbose linkMans minimatch@3.0.3
+1436 silly build path-is-absolute@1.0.1
+1437 info linkStuff path-is-absolute@1.0.1
+1438 silly linkStuff path-is-absolute@1.0.1 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1439 silly linkStuff path-is-absolute@1.0.1 is part of a global install
+1440 silly linkStuff path-is-absolute@1.0.1 is installed into a global node_modules
+1441 verbose linkBins path-is-absolute@1.0.1
+1442 verbose linkMans path-is-absolute@1.0.1
+1443 silly build wrappy@1.0.2
+1444 info linkStuff wrappy@1.0.2
+1445 silly linkStuff wrappy@1.0.2 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1446 silly linkStuff wrappy@1.0.2 is part of a global install
+1447 silly linkStuff wrappy@1.0.2 is installed into a global node_modules
+1448 verbose linkBins wrappy@1.0.2
+1449 verbose linkMans wrappy@1.0.2
+1450 silly build once@1.4.0
+1451 info linkStuff once@1.4.0
+1452 silly linkStuff once@1.4.0 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1453 silly linkStuff once@1.4.0 is part of a global install
+1454 silly linkStuff once@1.4.0 is installed into a global node_modules
+1455 verbose linkBins once@1.4.0
+1456 verbose linkMans once@1.4.0
+1457 silly build inflight@1.0.6
+1458 info linkStuff inflight@1.0.6
+1459 silly linkStuff inflight@1.0.6 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1460 silly linkStuff inflight@1.0.6 is part of a global install
+1461 silly linkStuff inflight@1.0.6 is installed into a global node_modules
+1462 verbose linkBins inflight@1.0.6
+1463 verbose linkMans inflight@1.0.6
+1464 silly build glob@5.0.15
+1465 info linkStuff glob@5.0.15
+1466 silly linkStuff glob@5.0.15 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1467 silly linkStuff glob@5.0.15 is part of a global install
+1468 silly linkStuff glob@5.0.15 is installed into a global node_modules
+1469 verbose linkBins glob@5.0.15
+1470 verbose linkMans glob@5.0.15
+1471 silly build findup-sync@0.3.0
+1472 info linkStuff findup-sync@0.3.0
+1473 silly linkStuff findup-sync@0.3.0 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1474 silly linkStuff findup-sync@0.3.0 is part of a global install
+1475 silly linkStuff findup-sync@0.3.0 is installed into a global node_modules
+1476 verbose linkBins findup-sync@0.3.0
+1477 verbose linkMans findup-sync@0.3.0
+1478 silly build grunt-known-options@1.1.0
+1479 info linkStuff grunt-known-options@1.1.0
+1480 silly linkStuff grunt-known-options@1.1.0 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1481 silly linkStuff grunt-known-options@1.1.0 is part of a global install
+1482 silly linkStuff grunt-known-options@1.1.0 is installed into a global node_modules
+1483 verbose linkBins grunt-known-options@1.1.0
+1484 verbose linkMans grunt-known-options@1.1.0
+1485 silly build nopt@3.0.6
+1486 info linkStuff nopt@3.0.6
+1487 silly linkStuff nopt@3.0.6 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1488 silly linkStuff nopt@3.0.6 is part of a global install
+1489 silly linkStuff nopt@3.0.6 is installed into a global node_modules
+1490 verbose linkBins nopt@3.0.6
+1491 verbose link bins [ { nopt: './bin/nopt.js' },
+1491 verbose link bins   '/usr/local/lib/node_modules/grunt-cli/node_modules/.bin',
+1491 verbose link bins   false ]
+1492 verbose linkMans nopt@3.0.6
+1493 silly gentlyRm /usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt is being purged
+1494 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/grunt-cli/node_modules/.bin/nopt
+1495 silly build resolve@1.1.7
+1496 info linkStuff resolve@1.1.7
+1497 silly linkStuff resolve@1.1.7 has /usr/local/lib/node_modules/grunt-cli/node_modules as its parent node_modules
+1498 silly linkStuff resolve@1.1.7 is part of a global install
+1499 silly linkStuff resolve@1.1.7 is installed into a global node_modules
+1500 verbose linkBins resolve@1.1.7
+1501 verbose linkMans resolve@1.1.7
+1502 silly build grunt-cli@1.2.0
+1503 info linkStuff grunt-cli@1.2.0
+1504 silly linkStuff grunt-cli@1.2.0 has /usr/local/lib/node_modules as its parent node_modules
+1505 silly linkStuff grunt-cli@1.2.0 is part of a global install
+1506 silly linkStuff grunt-cli@1.2.0 is installed into a global node_modules
+1507 silly linkStuff grunt-cli@1.2.0 is installed into the top-level global node_modules
+1508 verbose linkBins grunt-cli@1.2.0
+1509 verbose link bins [ { grunt: 'bin/grunt' }, '/usr/local/bin', true ]
+1510 verbose linkMans grunt-cli@1.2.0
+1511 silly gentlyRm /usr/local/bin/grunt is being gently removed
+1512 verbose unlock done using /Users/Drew/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+1513 silly rollbackFailedOptional Starting
+1514 silly rollbackFailedOptional Finishing
+1515 silly runTopLevelLifecycles Finishing
+1516 silly install printInstalled
+1517 verbose stack Error: EACCES: permission denied, symlink '../lib/node_modules/grunt-cli/bin/grunt' -> '/usr/local/bin/grunt'
+1517 verbose stack     at Error (native)
+1518 verbose cwd /Users/Drew/Desktop/bloc/bloc-jams-angular/app
+1519 error Darwin 16.0.0
+1520 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "grunt-cli"
+1521 error node v6.10.0
+1522 error npm  v3.10.10
+1523 error path ../lib/node_modules/grunt-cli/bin/grunt
+1524 error code EACCES
+1525 error errno -13
+1526 error syscall symlink
+1527 error Error: EACCES: permission denied, symlink '../lib/node_modules/grunt-cli/bin/grunt' -> '/usr/local/bin/grunt'
+1527 error     at Error (native)
+1527 error  { Error: EACCES: permission denied, symlink '../lib/node_modules/grunt-cli/bin/grunt' -> '/usr/local/bin/grunt'
+1527 error     at Error (native)
+1527 error   errno: -13,
+1527 error   code: 'EACCES',
+1527 error   syscall: 'symlink',
+1527 error   path: '../lib/node_modules/grunt-cli/bin/grunt',
+1527 error   dest: '/usr/local/bin/grunt' }
+1528 error Please try running this command again as root/Administrator.
+1529 verbose exit [ -13, true ]
